@@ -1,16 +1,42 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
+
+*{
+    padding:0;
+    margin: 0; 
+    box-sizing: border-box; 
+   
+}
+html{    
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+body{ 
+ overflow-x: hidden;
+ font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
 /* LOGO CSS */
  .logo a {
      display: inline-block;
+     margin-top: 30px;
 }
-
+.our-header-area{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+a:hover{
+    color: #fff !important;
+}
 /* logo sticky */
  .radiology-main-menu .logo a.main_sticky_main_l {
      display: block;
-}
-.radiology-main-menu{
-    background-color: #030925;
 }
  .radiology-main-menu .logo a.main_sticky_l {
      display: none;
@@ -24,21 +50,26 @@
 } 
 /* MENU text CSS */
  .radiology_menu ul {
-     text-align: right;
-     list-style: none;
+    text-align: right;
+    list-style: none;
+    margin-top: 8px;
 }
+
  .radiology_menu > ul > li {
      display: inline-block;
      position: relative;
 }
 .radiology_menu > ul > li > a {
     display: block;
-    margin: 35px 16px;
+    margin: 25px 12px;
     transition: .5s;
     position: relative;
     font-size: 18px;
     font-weight: 600;
-    color: #272727;
+    color: #fff;
+}
+.radiology_menu > ul > li > a:hover {    
+    color: #fff;
 }
  .radiology_menu > ul > li > a:before, .radiology_menu > ul > li.current > a:before {
      background: #ffb600 none repeat scroll 0% 0;
@@ -94,9 +125,6 @@
  .tx_mmenu_together .donate-btn-header {
      padding: 0;
 }
- .prefix .main_menu_header_address_text h3, .prefix .main_menu_header_address_text h4 a, .prefix .main_menu_header_icon i {
-     color: #fff;
-}
 
 /* sub menu style */
 .radiology_menu ul .sub-menu {
@@ -105,7 +133,7 @@
     top: 130%;
     width: 240px;
     text-align: left;
-    background: #fff;
+    background: #4D4C4C;
     margin: 0;
     padding: 15px 8px 8px 25px;
     z-index: 9999;
@@ -133,7 +161,7 @@
     font-size: 18px;
     font-weight: 500;
     transition: .5s;
-    color: #272727;
+    color: #fff;
     visibility: inherit !important;
     padding: 4px 0px;
 }
@@ -148,57 +176,34 @@
     color: #919aa7;
     padding-left: 12px;
 }
-/* sub menu 2 */
-.radiology_menu ul .sub-menu .sub-menu {
-    left: 100%;
-    top: 130%;
-    opacity: 0;
-    visibility: hidden;
+.bill-paying .sub-menu-sub{
+    display: block;
+    text-align: center;
+    background-color: none;
+    
+
 }
- .radiology_menu ul .sub-menu li:hover > .sub-menu {
-     opacity: 1;
-     visibility: visible;
-     top: 0%;
+.right-menu{
+    margin-left: 50px;
 }
-/* sub menu 3 */
- .radiology_menu ul .sub-menu .sub-menu li {
-     position: relative;
-}
- .radiology_menu ul .sub-menu .sub-menu .sub-menu {
-     right: 100%;
-     left: auto;
-     top: 130%;
-     opacity: 0;
-     visibility: hidden;
-}
- .radiology_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
-     opacity: 1;
-     visibility: visible;
-     top: 0%;
-}
-/* sub menu 4 */
- .radiology_menu ul .sub-menu .sub-menu .sub-menu li {
-     position: relative;
-}
- .radiology_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
-     opacity: 1;
-     visibility: visible;
-     top: 0%;
+.right-menu-a{
+    border-bottom: 2px solid #fff;
+    font-weight: 700;
+    padding-left: 4rem;
+    margin-top: 0.75rem;
 }
 
 /* has menu icon */
-.radiology-main-menu .menu-item-has-children > a:after {
-    margin-left: 8px;
-    content: "\f107";
-    font-family: FontAwesome !important;
-    opacity: 1;
+.radiology-main-menu .menu-item-has-children::after {
+    margin-left: -5px;
+    content: "\f0dd";
+    font-family: FontAwesome !important;    
     font-size: 13px;
-    opacity: .5;
     font-weight: 600;
-}
- .radiology-main-menu .menu-item-has-children .menu-item-has-children> a:after {
-     margin-left: 8px;
-     content: "\f107";
+    top: 0px;
+    position: absolute;
+    color: #fff;
+    top: 26px;
 }
 
 /* quearys area css */
@@ -211,6 +216,24 @@
 .radiology_menu div.em-header-quearys {
     text-align: center;
 }
+.sub-menu li a::after {
+    position: absolute;
+    content: "";
+    border: 0px solid #009a7c;
+    bottom: -5px;
+    left: 0;
+   
+}
+.sub-menu li a:hover::after {
+    position: absolute;
+    content: "";
+    border: 3px solid #009a7c;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transition: .1s;
+}
+
 
 .em-quearys-inner {
     visibility: hidden;
@@ -278,7 +301,7 @@ textarea, input {
 .main-search-menu .em-header-quearys .em-quearys-menu i {
     cursor: pointer;
     background: transparent;
-    color: #272727;
+    color: #fff;
     padding: 0;
     border-radius: 5px;
     height: inherit;
@@ -326,7 +349,7 @@ textarea, input {
     margin-right: 10px;
 }
 .main_menu_header_icon i {
-    color: #f54634;
+    
 	font-size: 30px;
 }
 .main_menu_header_address_text h3, .main_menu_header_address_text h4 a {
@@ -342,6 +365,9 @@ textarea, input {
     margin-bottom: 0;
     color: #030925;
 }
+.radiology-navegition-menu{
+    justify-content: right;
+}
 
 /*=======================
 #2 radiology mobile menu css
@@ -349,6 +375,7 @@ textarea, input {
 .mobile-menu{
  display:none !important;
 }
+
  .mobile_logo_area{
  display:none !important;
 }
@@ -427,6 +454,9 @@ textarea, input {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 30px;
+    position: absolute;
+    right: 20px;
 }
 .mobile_menu_o  i {
     font-size: 26px;
@@ -473,3 +503,69 @@ a.dtbtn {
 a.dtbtn:hover {
     background: var(--dark);
 }
+.radiology_menu{
+    display: flex;
+    
+}
+.right-menu a{
+    display: block;
+    text-align: left;
+}
+
+.bill-paying {
+    opacity: 1;
+    background-color: rgb(0 103 182/.7);
+    padding: 30px 60px;    
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.bill-paying:hover {    
+    background-color: hsla(0,0%,44%,.7);    
+    color: #fff;
+}
+.right-menu a {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* our radiology hero section style start here   */
+.radiology-hero-section{
+    height: 950px;
+    position: relative;
+    background-position: center;
+}
+.hero-info-area{
+    margin-left: 300px;
+    
+}
+.hero-area{
+    position: absolute;    
+    bottom: 100px;
+    left: 200px;
+}
+.hero-heding{
+    color: #fff;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+.hero-heding-one{
+    color: #fff;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+.hero-btn{
+    padding: 20px 30px;
+    border: none;
+    margin-top: 30px;
+    color: #009a7c;
+    text-transform: uppercase;
+}
+.hero-btn:hover{
+    background-color: hsla(0,0%,44%,.65);
+    color: #fff;
+    transition: .3s;
+
+}
+
