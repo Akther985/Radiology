@@ -1,0 +1,475 @@
+
+
+/* LOGO CSS */
+ .logo a {
+     display: inline-block;
+}
+
+/* logo sticky */
+ .radiology-main-menu .logo a.main_sticky_main_l {
+     display: block;
+}
+.radiology-main-menu{
+    background-color: #030925;
+}
+ .radiology-main-menu .logo a.main_sticky_l {
+     display: none;
+}
+/* logo pre */
+ .radiology-main-menu .prefix .logo a.main_sticky_main_l {
+     display: none;
+}
+ .radiology-main-menu .prefix .logo a.main_sticky_l {
+     display: block;
+} 
+/* MENU text CSS */
+ .radiology_menu ul {
+     text-align: right;
+     list-style: none;
+}
+ .radiology_menu > ul > li {
+     display: inline-block;
+     position: relative;
+}
+.radiology_menu > ul > li > a {
+    display: block;
+    margin: 35px 16px;
+    transition: .5s;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #272727;
+}
+ .radiology_menu > ul > li > a:before, .radiology_menu > ul > li.current > a:before {
+     background: #ffb600 none repeat scroll 0% 0;
+     bottom: -7px;
+     content: "";
+     height: 2px;
+     left: 0;
+     margin: auto;
+     opacity: 0;
+     position: absolute;
+     right: 0;
+     transition: all 0.5s ease 0s;
+     width: 15%;
+     display:none;
+}
+ .radiology_menu ul li:last-child a {
+     margin-right: 15px !important;
+}
+.radiology_menu > ul > li.current > a, .radiology_menu > ul > li:hover > a, .creative_header_menu > ul > li:hover > a {
+    color: #919aa7;
+    background-color: transparent;
+}
+ .radiology_menu > ul > li:hover > a:before, .sefti_menu > ul > li.current > a:before {
+     opacity: 1;
+}
+
+ .transprent-menu .radiology_nav_area {
+     background-color: transparent;
+     padding: 0;
+     transition: .5s;
+}
+ .radiology_nav_area.postfix {
+     transition: .3s;
+}
+.radiology_nav_area.prefix {
+    background-color: transparent;
+}
+.hbg2 {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+
+ .radiology_nav_area.prefix .radiology_menu > ul > li > a {
+     color:#fff;
+}
+.radiology_nav_area.prefix .sefti_menu > ul > li.current > a {
+    color: #919aa7;
+}
+ .search_popup_button, .tx_mmenu_together{
+     align-items: center;
+     display: flex;
+     justify-content: flex-end;
+}
+ .tx_mmenu_together .donate-btn-header {
+     padding: 0;
+}
+ .prefix .main_menu_header_address_text h3, .prefix .main_menu_header_address_text h4 a, .prefix .main_menu_header_icon i {
+     color: #fff;
+}
+
+/* sub menu style */
+.radiology_menu ul .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 130%;
+    width: 240px;
+    text-align: left;
+    background: #fff;
+    margin: 0;
+    padding: 15px 8px 8px 25px;
+    z-index: 9999;
+    box-shadow: 0 0 30px rgb(0 0 0 / 9%);
+    transition: .2s;
+    opacity: 0;
+    visibility: hidden;
+}
+ .radiology_menu ul li:hover > .sub-menu {
+     transition: .5s;
+     opacity: 1;
+     visibility: visible;
+     top: 100%;
+     z-index: 9999;
+}
+ .radiology_menu ul .sub-menu li {
+     position: relative;
+	 transition:.5s;
+}
+.radiology_menu ul .sub-menu li a {
+    display: block;
+    margin: 0;
+    margin-bottom: 6px;
+    letter-spacing: normal;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+    color: #272727;
+    visibility: inherit !important;
+    padding: 4px 0px;
+}
+
+.radiology_menu ul .sub-menu li:before {
+    left: -18px;
+}
+.radiology_menu ul .sub-menu li:hover:before{
+	opacity:1;
+}
+.radiology_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a, .radiology_menu ul .sub-menu .sub-menu .sub-menu li:hover>a, .radiology_menu ul .sub-menu .sub-menu li:hover>a, .sefti_menu ul .sub-menu li:hover:before, .sefti_menu ul .sub-menu li:hover>a {
+    color: #919aa7;
+    padding-left: 12px;
+}
+/* sub menu 2 */
+.radiology_menu ul .sub-menu .sub-menu {
+    left: 100%;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+ .radiology_menu ul .sub-menu li:hover > .sub-menu {
+     opacity: 1;
+     visibility: visible;
+     top: 0%;
+}
+/* sub menu 3 */
+ .radiology_menu ul .sub-menu .sub-menu li {
+     position: relative;
+}
+ .radiology_menu ul .sub-menu .sub-menu .sub-menu {
+     right: 100%;
+     left: auto;
+     top: 130%;
+     opacity: 0;
+     visibility: hidden;
+}
+ .radiology_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
+     opacity: 1;
+     visibility: visible;
+     top: 0%;
+}
+/* sub menu 4 */
+ .radiology_menu ul .sub-menu .sub-menu .sub-menu li {
+     position: relative;
+}
+ .radiology_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
+     opacity: 1;
+     visibility: visible;
+     top: 0%;
+}
+
+/* has menu icon */
+.radiology-main-menu .menu-item-has-children > a:after {
+    margin-left: 8px;
+    content: "\f107";
+    font-family: FontAwesome !important;
+    opacity: 1;
+    font-size: 13px;
+    opacity: .5;
+    font-weight: 600;
+}
+ .radiology-main-menu .menu-item-has-children .menu-item-has-children> a:after {
+     margin-left: 8px;
+     content: "\f107";
+}
+
+/* quearys area css */
+.radiology_menu.main-search-menu > .em-header-quearys, .em-quearys-top.msin-menu-search {
+    display: inline-block;
+}
+.em-top-quearys-area {
+    position: relative;
+}
+.radiology_menu div.em-header-quearys {
+    text-align: center;
+}
+
+.em-quearys-inner {
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 10000;
+    transition: all 0s 0s cubic-bezier(0.32, 0, 0, 1), transform .3s .15s cubic-bezier(0.32, 0, 0, 1), background .3s 0s cubic-bezier(0.32, 0, 0, 1);
+    transform: scale(1.1);
+    visibility: hidden;
+    opacity: 0;
+    left: -150%;
+    background: rgba(0, 0, 0, 0);
+}
+.em-s-open {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    background: #000000e6 !important;
+    transform: scale(1);
+}
+.em-quearys-form {
+    width: 100%;
+    max-width: 895px;
+    margin: auto;
+    padding: 30px 0;
+}
+.top-form-control {
+    position: relative;
+}
+.top-form-control input {
+    background: transparent;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    height: 100px;
+    padding: 0 40px 0 15px;
+    width: 100%;
+    border: none;
+    transition: .5s;
+    border-bottom: 3px solid #fff;
+}
+.top-form-control input::placeholder{
+	color:#fff;
+}
+textarea, input {
+    outline: none;
+}
+.top-form-control button.top-quearys-style {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    background: transparent;
+    font-size: 45px;
+    border: none;
+    color: #fff;
+    transform: translateY(-50%);
+}
+.main-search-menu .em-header-quearys .em-quearys-menu i {
+    cursor: pointer;
+    background: transparent;
+    color: #272727;
+    padding: 0;
+    border-radius: 5px;
+    height: inherit;
+    width: inherit;
+    line-height: inherit;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.radiology_nav_area.prefix .main-search-menu .em-header-quearys .em-quearys-menu i {
+    color: #fff;
+}
+.mrt10{
+	margin-top:10px;
+}
+.em-quearys-menu i {
+    background: #919aa7;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.main_menu_address_a {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.main_menu_address_a::before {
+    background: #fbfbfb40;
+}
+.main_menu_address_a:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 107px;
+    left: 0;
+}
+.main_menu_header_icon {
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.main_menu_header_icon i {
+    color: #f54634;
+	font-size: 30px;
+}
+.main_menu_header_address_text h3, .main_menu_header_address_text h4 a {
+    margin: 0;
+    font-weight: 600;
+	font-size: 18px;
+	
+}
+.main_menu_header_address_text h3{
+	color: #f54634;
+}
+.main_menu_header_address_text h4 {
+    margin-bottom: 0;
+    color: #030925;
+}
+
+/*=======================
+#2 radiology mobile menu css
+========================*/
+.mobile-menu{
+ display:none !important;
+}
+ .mobile_logo_area{
+ display:none !important;
+}
+.mean-container a.meanmenu-reveal {
+    display: none !important;
+}
+.mean-container .mean-nav > ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    display: block !important;
+}
+.mean-container .mean-bar {
+    background: #fff;
+    padding: 0;
+}
+.mean-container .mean-nav ul li {
+    border-top: 0px solid #ddd;
+}
+.mean-container .mean-nav ul li li a,
+.mean-container .mean-nav ul li a {
+    color: #444;
+}
+.mean-container .mean-nav ul li li a {
+    border-top: 1px solid #ddd;
+}
+.mean-container .mean-nav ul li a:hover {
+    color: #ff4a17;
+}
+.mobile_p {
+    position: fixed;
+    right: 0;
+    width: 100%;
+	padding: 80px 20px 0px;
+	overflow-y: scroll;
+    top: 0;
+    height: 100%;
+    z-index: 9999;
+    display: block;
+    transition: 0.5s all;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+    transform: translateX(100%);
+    background: #ffffff;
+}
+.tx-s-open {
+    transform: translateX(0);
+}
+.mobile_p .tuetion_theme_widget > div.widget_block {
+    padding: 0;
+}
+.mobile_p .tuetion_theme_widget > div {
+    padding: 20px 0px 20px;
+    box-shadow: none;
+}
+.mean-container .mean-nav ul li a {
+    border: 0;	
+    width: 100%;
+    border-top: 1px solid #ddd;	
+    font-size: 14px;
+    padding: 12px 5px;
+    font-weight: 500;
+	display: block;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	width: auto;
+}
+.mobile_opicon {
+    text-align: right;
+    padding: 4px 0;
+}
+.mean-container .mean-nav > ul > li:first-child > a {
+    border-top: 0;
+}
+.mobilemenu_con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile_menu_o  i {
+    font-size: 26px;
+}
+.mobile_menu_content .mobile_menu_logo {
+    margin-bottom: 20px;
+}
+.mobile_cicon {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.mobile_overlay {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-out 0s;
+}
+.mobile_overlay.mactive {
+    opacity: 1;
+    visibility: visible;
+}
+/* menu button */
+a.dtbtn {
+    border: none;
+    display: block;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+    padding: 12px 38px;
+    color: #fff;
+    background: #919aa7;
+    border-radius: 30px;
+    font-family: "Cabin", sans-serif;
+}
+a.dtbtn:hover {
+    background: var(--dark);
+}

@@ -1,0 +1,393 @@
+/* ------------------------------------------------- Large Screen. 1200 ---------------------------------------------------*/
+@media (min-width: 1440px) and (max-width: 1800px) {
+
+}
+/* ------------------------------------------------- Large Screen. 1200 ---------------------------------------------------*/
+ @media (min-width: 1200px) and (max-width: 1660px) {
+    #scrollUp {
+        right: 30px;
+   }
+}
+/* ------------------------------------------------- Large Screen. 1025 ---------------------------------------------------*/
+ @media (min-width: 1025px) and (max-width: 1800px) {
+}
+/* ------------------------------------------------- Large Screen. 1024 ---------------------------------------------------*/
+ @media (min-width: 1024px) and (max-width: 1600px) {
+    /* project area */
+    .our_project {
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+    }
+}
+/* ------------------------------------------------- Laptop Screen 1366 ---------------------------------------------------*/
+ @media (min-width: 1170px) and (max-width: 1366px) {
+     
+}
+/* ------------------------------------------------- Old Desktop :1365-1660 ---------------------------------------------------*/
+ @media (min-width: 1365px) and (max-width: 1660px) {
+    
+}
+/* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
+ @media (min-width: 992px) and (max-width: 1380px) {
+    /* section title */
+    .witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size:35px
+    }
+    /* main menu */
+    .sefti_menu > ul > li > a {
+        font-size: 15px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    /* project ara */
+    .our_project {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+}
+@media (min-width: 1301px) and (max-width:1440px) {
+    /* bannner area */
+    .section-full-width .banner_container {
+        width:82%!important
+    }
+}
+@media (min-width: 992px) and (max-width:1300px) {
+    /* banner area */
+    .section-full-width .banner_container {
+        width:93%!important
+    }
+    .banner-inner h2 {
+        font-size: 60px
+    }
+}
+/* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
+ @media (min-width: 992px) and (max-width: 1199px) {
+    /* section title */
+    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width:67%
+    }
+    /* nav area */
+    .sefti_menu > ul > li > a {
+        font-size: 15px;
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    .witr_ds_content {
+        height:840px!important
+    }
+    .witr_ds_content_inner h2 {
+        font-size: 50px
+    }
+    /* service area */
+    .service_desc h2 {
+        font-size: 30px;
+    }
+    /* slick slider btn */
+    .op_wrapper .slick-next, .op_wrapper .slick-prev, .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+    .op_wrapper .slick-prev, .op_wrapper .slick-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .op_wrapper .slick-prev {
+        left: 0;
+    }
+    .op_wrapper .slick-next {
+        right: 0;
+    }
+    .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
+        opacity: 1;
+    }
+    /* price area */
+    .pricing-menu {
+        padding-left: 20px!important;
+    }
+    /* footer area */
+    .footer-middle .container {
+        padding: 0 10%;
+    }
+    /* scroll up  */
+    #scrollUp {
+        bottom: 60px;
+        right: 30px;
+    }
+}
+/* ------------------------------------------------- Tablet Screen : 768 ---------------------------------------------------*/
+ @media (min-width: 768px) and (max-width: 991px) {
+    /* section title */
+	.witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size:27px
+    }
+    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width: 83%
+    }
+    /* banner */
+    .section-full-width .banner_container {
+        margin:auto;
+        width: 90%!important
+    }
+    .banner-inner h1 {
+        text-align: center;
+    }
+    .banner-inner h2 {
+        font-size: 48px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-inner  p{
+        width: 100%;
+        text-align: center;
+    }
+    /* slick slider btn */
+    .op_wrapper .slick-next, .op_wrapper .slick-prev, .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+    .op_wrapper .slick-prev, .op_wrapper .slick-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .op_wrapper .slick-prev {
+        left: 0;
+    }
+    .op_wrapper .slick-next {
+        right: 0;
+    }
+    .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
+        opacity: 1;
+    }
+    /* footer area */
+    .footer-middle .container {
+        padding: 0 10%;
+    }
+    /* scroll up  */
+    #scrollUp {
+        bottom: 60px;
+        right: 30px;
+    }
+}
+/* menu and logo show & hide */
+ @media (min-width: 10px) and (max-width: 991px){
+    /* top menu */
+    .left-contact {
+        display: block;
+        text-align: center;
+    }
+    .left-contact .address, .left-contact .phone, .left-contact .mail {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .right-contact .social-icons {
+        text-align: center!important;
+    }
+    /* mobile menu */
+     .mobile-menu{
+         display:block !important;
+    }
+     .mobile_logo_area{
+         display:block !important;
+    }
+     .sefti-main-menu{
+         display:none !important;
+    }
+     .d_md_none{
+         display:none !important;
+    }
+    .search_popup_button, .tx_mmenu_together{
+		display: none;
+	}
+    /* banner area */
+    .banner-btn {
+        text-align: center;
+    }
+    /* service area */
+    .service_desc h2 {
+        font-size: 28px;
+    }
+    /* team area */
+    .single_team {
+        padding-bottom: 80px;
+    }
+    .single_team:hover {
+        padding-bottom: 130px;
+    }
+    /* project area */
+    .our_project {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    /* faq form */
+    .fra_inner {
+        margin-left: 0;
+    }
+    /* about area */
+    .about_content {
+        padding: 30px 0 0;
+        margin-left: 0;
+    }
+}
+/* ------------------------------------------------- Small Mobile : 320 ---------------------------------------------------*/
+ @media (max-width: 767px) {
+    /* top menu */
+    .left-contact span, .left-contact a, .right-contact .social-icons a {
+        font-size: 13px;
+    }
+    /* slick slider btn */
+    .slick-next, .slick-prev {
+        display: none!important;
+    }
+    /* section title css */
+	.witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size: 21px;
+        line-height: 30px
+    }
+    .witr_section_title_inner h2 {
+        margin-bottom: 4px;
+        font-size: 15px
+    }
+    .title_in_area,.witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width: 100%
+    }
+    .witr_section_title {
+        text-align: center
+    }
+    .witr_section_title .text-right {
+        text-align: center!important
+    }
+    .text-left .witr_btn_sinner,.text-right .witr_btn_sinner {
+        text-align:center!important
+    }
+    /* banner area */
+    .section-full-width .banner_container {
+        margin: auto;
+        width: 90%!important
+    }
+    .banner-inner h1 {
+        text-align: center;
+    }
+    .banner-inner h2 {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner-inner p {
+        text-align: center;
+        width: 100%;
+    }
+    .banner-btn a:first-child {
+        margin-right: 0px;
+    }
+    .banner-btn a.btn {
+        padding: 10px 26px;
+    }
+    /* about area */
+    .as_inner {
+        grid-template-columns: 1fr;
+    }
+    .single_as {
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+    /* counter area */
+    .single_counter {
+        margin-bottom: 20px;
+    }
+    .single_counter_inner h2, .single_counter_inner span {
+        font-size: 40px;
+    }
+    /* portfolio area */
+    .portfolio-btn-menu li {
+        padding: 8px;
+        margin: 0 0px 5px;
+    }
+    /* team area */
+    .team_area {
+        padding: 0 0 70px;
+    }
+    /* testimonial area */
+    .testimonial_area {
+        padding: 70px 0 100px;
+    }
+    /* footer area */
+    .footer-middle p, .footer-middle h2, .footer-middle ul li {
+        text-align: center;
+    }
+    .footer_s_inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-social-icon {
+        text-align: center;
+    }
+    .sefti-description-area {
+        text-align: center;
+    }
+    .copy-right-text p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer-menu ul {
+        justify-content: center;
+    }
+    .footer-menu ul li a {
+        font-size: 14px;
+    }
+    /* scroll up css */
+    #scrollUp {
+        bottom: 92px;
+        right: 30px;
+    }
+}
+/* ------------------------------------------------- Large Mobile :480px. ---------------------------------------------------*/
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* section title */
+    .witr_section_title_inner h1,.witr_section_title_inner h3 {
+        font-size:25px
+    }
+    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
+        width: 91%
+    }
+    .footer-middle p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+ @media (min-width: 10px) and (max-width: 570px){
+     .sefti-header-top{
+        display:none;
+    }
+    /* price area */
+    .pricing-menu {
+        padding-left: 5%;
+    }
+}
+@media (min-width:577px) and (max-width: 767px) {
+    .footer-middle p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+@media (min-width: 992px) {
+    /* service area */
+    .as_inner .single_as:hover {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+    }
+    /* feature area */
+    .feature-area {
+        margin-top: -110px;
+        padding: 0;
+    }
+    .op_feature {
+        margin-top: 0;
+        padding: 110px 0 0;
+    }
+}
