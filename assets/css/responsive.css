@@ -254,8 +254,10 @@
         background: #fff;
     }
     .icofont-close:before {
-        content: "\eee4";
+        content: "\f00d";
         color: black;
+        font-family: 'Font Awesome 6 Free';        
+        font-weight: 900;
     }
     .mobile_menu_o i {
         font-size: 26px;

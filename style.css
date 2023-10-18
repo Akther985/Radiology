@@ -633,3 +633,40 @@ a.dtbtn:hover {
     background-color: #4D4C4C;
 }
 
+.icofont-search-2:before {
+    content: "\f002";
+    font-family: 'Font Awesome 6 Free';
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+.icofont-close-line:before {
+    content: "\f057";
+    font-family: 'Font Awesome 6 Free';
+    color: #fff;
+    font-weight: 900;
+    font-size: 35px;
+}
+.icofont-long-arrow-right:before {
+    content: "\f061";
+    font-family: 'Font Awesome 6 Free';
+    color: #fff;
+    font-weight: 900;
+    font-size: 35px;
+}
+.icofont-navigation-menu:before {
+    content: "\f0c9";
+    font-family: 'Font Awesome 6 Free';
+    color: #fff;
+    font-weight: 900;
+}
+.icofont-close:before {
+    content: "\f00d";
+    font-family: 'Font Awesome 6 Free';
+    color: black;
+    
+}
+
+
+
