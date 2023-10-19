@@ -667,6 +667,17 @@ a.dtbtn:hover {
     color: black;
     
 }
+/* our doctor area style start here  */
+.our-doctor-section{
+    background-color: #009a7c;
+    padding: 60px 0; 
+    
+}
+.doctor-header {
+    background-color: #fff;
+    height: 145px;
+    width: 95%;   
+}
 
 
 
