@@ -287,6 +287,7 @@ a:hover{
 }
 textarea, input {
     outline: none;
+    margin: 10px 0;
 }
 .top-form-control button.top-quearys-style {
     position: absolute;
@@ -773,4 +774,32 @@ a.dtbtn:hover {
     margin-left: 30px;
     color: white;
     margin-top: 20px;
+}
+
+/* our form area start here  */
+.rediology-form-here{
+    background-color: #e6e9e6;
+    padding: 120px;
+}
+.radiology-form-heding{
+    display: flex;
+    justify-content: space-between;
+}
+.w-full {
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+.form-address{
+    display: flex;
+}
+.form-area {
+    display: flex;
+    justify-content: space-between;
+}
+.form-relative-1 input{
+    width: 100%;
+}
+.form-relative-1{
+    width: 100%;
 }

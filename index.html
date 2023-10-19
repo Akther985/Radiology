@@ -390,14 +390,48 @@
                                 <div class="info-ml"><a class="single-btn" href="#">Read More</a></div>
                                 <div class="right-doc-btn"><button class="doc-more-btn">More</button></div>
                             </div>
-                        </div>
-                       
+                        </div>                       
                     </div>
                   </div>
                </div>
             </div>
          </div>         
       </div>
+   </section>
+   <!-- our Radiology from area start here  -->
+   <section class="radiology-form-area">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-12">
+               <div class="rediology-form-here">
+                  <div class="radiology-form-heding">
+                     <h2>Schedule an Appointment</h2>
+                      <p class="radiology-form-req">*Required Field</p>
+                  </div>
+                  <form action="#"  method="post" name="AppointmentSchedule">
+                     <input type="hidden" name="form-name" value="AppointmentSchedule">                     
+                        <div class="relative"><input type="text" name="name" value="" id="name" placeholder="Name" class="w-full"><label for="address">Name</label></div> 
+                        <div class="relative"><input type="text" name="address" value="" placeholder="address" class="w-full"><label for="address">Address</label></div>
+                        <div class="form-area">
+                        <div class="form-relative-1"><input type="text" name="city" value="" id="city" placeholder="city" class="form-city"><label for="address">Address</label></div>
+                        <div class="form-relative"><input type="text" name="state" value="" id="state" placeholder="state"><label for="state">State</label></div>
+                        <div class="form-relative"><input type="number" name="zip" value="" id="zip" placeholder="zip"><label for="zip">ZIP</label></div>
+                        </div>
+                        <div class="relative"><input type="text"  id="phone" name="phone" placeholder="phone" value=""><label for="phone">Phone*</label></div>
+                        <div class="relative"><input type="text" name="fax" value="" placeholder="fax" id="fax"><label for="fax">Fax</label></div>
+                        <div><input type="email" name="email" value="" id="email" placeholder="email"><label for="email">Email*</label></div>
+                        <div class="uppercase ">method of contact</div>
+                        <div role="group" aria-labelledby="method-of-contact"><label><input type="checkbox" name="contactMethod" value="phone">
+                        <span>Phone</span></label><label><input type="checkbox" name="contactMethod" value="email"><span>Email</span></label></div> 
+                        <div><input type="time" name="appointment_time" value="" placeholder="time" id="appointment_time"><label for="appointment_time">Preferred Appointment Time</label></div>
+                        <div><input type="date" name="appointment_date" value="" placeholder="date" id="appointment_date"><label for="appointment_date">Preferred Appointment Date</label></div>
+                        <div class="relative"><textarea name="comments" id="comments"  placeholder="Comments/Questions"></textarea><label for="comments">Comments/Questions</label></div>
+                        <button type="submit">Submit</button>
+                 </form>         
+               </div>
+            </div>
+         </div>
+     </div>
    </section>
   </main>
    
