@@ -288,6 +288,15 @@ a:hover{
 textarea, input {
     outline: none;
     margin: 10px 0;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+label {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
 }
 .top-form-control button.top-quearys-style {
     position: absolute;
@@ -785,10 +794,15 @@ a.dtbtn:hover {
     display: flex;
     justify-content: space-between;
 }
+.radiology-form-heding h2{
+    color: #0067B6;
+    font-weight: 600;
+    
+}
 .w-full {
     width: 100%;
     border: none;
-    padding: 10px;
+    padding: 15px;
 }
 .form-address{
     display: flex;
@@ -805,28 +819,70 @@ a.dtbtn:hover {
 }
 .form-relative-1 input {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: none;
 }
 .form-relative{
     margin-left: 20px;
 }
 .form-relative input {
-    width: 100%;
-    padding: 10px;    
+    width: 100%;       
     border: none;
 }
 .form-relative-contact{
     display: flex;
     justify-content: space-between;
 }
-.submit-btn{
+.submit-btn {
     border: 0;
     background-color: #0067B6;
-    padding: 15px 20px;
+    padding: 20px 50px;
     color: #fff;
     text-align: end;
+    border-radius: 5px;
+    font-size: 22px;
 }
 .form-btn-here {
     text-align: right;
 }
+.relative-contact{
+    width: 100%;
+    text-transform: uppercase;
+}
+.widd-haf-l{
+    width: 98%;
+    margin-right: 10px;
+
+}
+.widd-haf-r{
+    width: 98%;
+    margin-left: 10px;
+
+}
+.relative-contact {
+    width: 100%;
+    display: flex;    
+    align-items: center;
+}
+.relative-contact div {
+    margin-right: 20px;
+}
+.lable-span {
+    margin-left: 10px;
+}
+.w-full-f{
+    padding: 50px 15px;
+}
+
+/* our footer area start here  */
+.our-footer-area{
+    background-color: #fff; 
+    padding: 60px 0;   
+}
+.footer-left{
+    margin-left: 300px;
+}
+.right-main-footer{
+    display: flex;
+}
+
