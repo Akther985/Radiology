@@ -800,6 +800,33 @@ a.dtbtn:hover {
 .form-relative-1 input{
     width: 100%;
 }
-.form-relative-1{
+.form-relative-1 {
+    width: 60%;    
+}
+.form-relative-1 input {
     width: 100%;
+    padding: 10px;
+    border: none;
+}
+.form-relative{
+    margin-left: 20px;
+}
+.form-relative input {
+    width: 100%;
+    padding: 10px;    
+    border: none;
+}
+.form-relative-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn{
+    border: 0;
+    background-color: #0067B6;
+    padding: 15px 20px;
+    color: #fff;
+    text-align: end;
+}
+.form-btn-here {
+    text-align: right;
 }

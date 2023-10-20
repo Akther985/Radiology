@@ -410,23 +410,31 @@
                   </div>
                   <form action="#"  method="post" name="AppointmentSchedule">
                      <input type="hidden" name="form-name" value="AppointmentSchedule">                     
-                        <div class="relative"><input type="text" name="name" value="" id="name" placeholder="Name" class="w-full"><label for="address">Name</label></div> 
-                        <div class="relative"><input type="text" name="address" value="" placeholder="address" class="w-full"><label for="address">Address</label></div>
+                        <div class="relative"><input type="text" name="name" value="" id="name" placeholder="Name" class="w-full"></div> 
+                        <div class="relative"><input type="text" name="address" value="" placeholder="address" class="w-full"></div>
                         <div class="form-area">
-                        <div class="form-relative-1"><input type="text" name="city" value="" id="city" placeholder="city" class="form-city"><label for="address">Address</label></div>
-                        <div class="form-relative"><input type="text" name="state" value="" id="state" placeholder="state"><label for="state">State</label></div>
-                        <div class="form-relative"><input type="number" name="zip" value="" id="zip" placeholder="zip"><label for="zip">ZIP</label></div>
+                           <div class="form-relative-1"><input type="text" name="city" value="" id="city" placeholder="city" class="form-city"></div>
+                           <div class="form-relative"><input type="text" name="state" value="" id="state" placeholder="state"></div>
+                           <div class="form-relative"><input type="number" name="zip" value="" id="zip" placeholder="zip"></div>
                         </div>
-                        <div class="relative"><input type="text"  id="phone" name="phone" placeholder="phone" value=""><label for="phone">Phone*</label></div>
-                        <div class="relative"><input type="text" name="fax" value="" placeholder="fax" id="fax"><label for="fax">Fax</label></div>
-                        <div><input type="email" name="email" value="" id="email" placeholder="email"><label for="email">Email*</label></div>
-                        <div class="uppercase ">method of contact</div>
-                        <div role="group" aria-labelledby="method-of-contact"><label><input type="checkbox" name="contactMethod" value="phone">
-                        <span>Phone</span></label><label><input type="checkbox" name="contactMethod" value="email"><span>Email</span></label></div> 
-                        <div><input type="time" name="appointment_time" value="" placeholder="time" id="appointment_time"><label for="appointment_time">Preferred Appointment Time</label></div>
-                        <div><input type="date" name="appointment_date" value="" placeholder="date" id="appointment_date"><label for="appointment_date">Preferred Appointment Date</label></div>
-                        <div class="relative"><textarea name="comments" id="comments"  placeholder="Comments/Questions"></textarea><label for="comments">Comments/Questions</label></div>
-                        <button type="submit">Submit</button>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="text"  id="phone" name="phone" placeholder="phone" value=""></div>
+                           <div class="relative-contact"><input type="text" name="fax" value="" placeholder="fax" id="fax"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div><input type="email" name="email" value="" id="email" placeholder="email"></div>
+                          <div class="uppercase ">method of contact</div>
+                           <div role="group" aria-labelledby="method-of-contact"><label><input type="checkbox" name="contactMethod" value="phone">
+                        <span>Phone</span></label><label><input type="checkbox" name="contactMethod" value="email"><span>Email</span></label></div>                            
+                        </div>
+                        <div class="form-relative-contact">
+                           <div><input type="time" name="appointment_time" value="" placeholder="time" id="appointment_time"></div>
+                           <div><input type="date" name="appointment_date" value="" placeholder="date" id="appointment_date"></div>                           
+                        </div> 
+                        <div class="relative"><textarea name="comments" id="comments"  placeholder="Comments/Questions" class="w-full"></textarea></div>
+                        <div class="form-btn-here">
+                           <button class="submit-btn" type="submit">Submit</button>
+                        </div>
                  </form>         
                </div>
             </div>
