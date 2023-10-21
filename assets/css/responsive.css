@@ -2,9 +2,8 @@
 
 @media only screen and (min-width: 1320px) and (max-width:1600px){
 
-    .footer-left {
-        margin-left: 100px;
-        margin-right: 80px;
+    .our-footer-area {        
+        margin-left: 30px;
     }
     
 }
@@ -115,7 +114,192 @@
 }
 /* ------------------------------------------------- Tablet Screen : 768 ---------------------------------------------------*/
  @media (min-width: 768px) and (max-width: 991px) { 
-    
+    .radiology-main-menu .logo a.main_sticky_main_l {
+        display: block;
+        width: 75%;
+    }
+    .mobile-Search {   
+        position: relative;          
+        color: #444;;
+        text-transform: uppercase;
+        font-size: 16px;        
+        
+    }
+    .mobile-Search::after {
+        position: absolute;
+        content: "";
+        border-top: 2px solid #333;
+        width: 290px;        
+        left: 0;        
+    }
+    .hero-btn {
+        padding: 20px 25px;        
+        margin-top: 20px;
+    }
+    .hero-area {
+        bottom: 50px;
+        background: #0e364e;
+        width: 100%;
+    }
+    .mean-container .mean-bar, .mean-container .mean-bar * {       
+        background: #fff;
+    }
+    .icofont-close:before {
+        content: "\f00d";
+        color: black;
+        font-family: 'Font Awesome 6 Free';        
+        font-weight: 900;
+    }
+    .mobile_menu_o i {
+        font-size: 26px;
+        
+    }
+    .bg-hero-mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border: 0;
+        background: #0067b6;
+        color: #fff;
+        padding: 20px;
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+    .hero-btn {
+        color: #0067b6;
+        position: absolute;
+        top: -50px;
+        left: 35%;        
+    }
+    .hero-area {       
+        left: 0px;
+    }
+    .hero-info-area {
+        margin-left: 0px;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .hero-heding {        
+        font-size: 1.75rem;
+        
+    }
+    .hero-heding-one {        
+        font-size: 1.75rem;        
+    }
+    /* our single slider area  */
+    .single-slider{
+        padding: 0 20px;
+    }
+    .heroSlider .slick-prev {
+        left: 0px;
+    }
+    .heroSlider .slick-next {
+        right: 0px;
+    }
+    .doctor-header {
+       width: 100%;
+        margin-top: 0px; 
+    }
+    .doctor-header h1 {
+        color: #009a7c;
+        font-size: 2rem;
+        line-height: 2.2rem;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .doctor-slider {
+        margin-left: 20px;
+    }
+    .doc-info {
+        display: block;
+    }
+    .doc-pic {
+        max-width: 100%;
+        height: 380px;
+    }
+    .doc-pic-1 {
+        max-width: 100%;
+    }
+    .slick-prev {
+        left: 0px;
+    }
+    .prose-para {
+        padding: 0px 10px 0 10px;
+        color: white;
+    }
+    .doc-right-info {
+        border-left: none; 
+         padding-right: 0px; 
+    }
+    .other-News {
+        padding-top: 30px;
+    }
+
+    /* home page from area  */
+    .rediology-form-here {        
+        padding: 20px;
+    }
+    .form-area {
+        display: block;        
+    }
+    .form-relative {
+        margin-left: 0px;
+    }
+    .form-relative-1 {
+        width: 100%;
+    }
+    .form-relative-contact {
+        display: block;        
+    }
+    .widd-haf-l {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .widd-haf-r {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .relative-contact {
+        width: 100%;
+        display: block;
+        align-items: center;
+        
+    }
+     /* footer area style here   */
+     .fotter-logo {
+        padding-right: 100px;
+        padding: 20px 20px 20px 0px;
+    }
+    .our-footer-area {
+        background-color: #fff;
+        padding: 60px 30px;
+        margin-left: 0px;
+        padding-bottom: 0;
+    }
+    .footer-bottom {
+        background-color: #0067b6;
+        display: block;
+        padding: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .footer-end{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-location-btn{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .footer-end-btn{
+        border: 0;
+        background: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
    
 }
 /* menu and logo show & hide */
@@ -142,6 +326,8 @@
         padding: 60px 0;
         margin-left: 30px;
     }
+
+    
 }
 
    
@@ -170,9 +356,8 @@
         margin-top: 20px;
     }
     .hero-area {        
-        bottom: 50px;
-        left: px;
-        background: black;
+        bottom: 50px;        
+        background: #0e364e;
     }
     .mean-container .mean-bar, .mean-container .mean-bar * {       
         background: #fff;
@@ -193,20 +378,26 @@
         bottom: 0;
         width: 100%;
         border: 0;
-        background: red;
+        background: #0067b6;
         color: #fff;
         padding: 20px;
+        font-size: 22px;
+        text-transform: capitalize;
     }
-    .our-footer-area {
-        background-color: #fff;
-        padding: 60px 0;
-        margin-left: 30px;
+    .hero-btn {
+        color: #0067b6;
+        position: absolute;
+        top: -50px; 
+        left: 35px;
     }
+    
     .hero-area {       
         left: 0px;
     }
     .hero-info-area {
-        margin-left: 20px;
+        margin-left: 0px;
+        text-align: center;
+        padding: 40px 0;
     }
     .hero-heding {        
         font-size: 1.75rem;
@@ -214,6 +405,120 @@
     }
     .hero-heding-one {        
         font-size: 1.75rem;        
+    }
+    /* our single slider area  */
+    .single-slider{
+        padding: 0 20px;
+    }
+    .heroSlider .slick-prev {
+        left: 0px;
+    }
+    .heroSlider .slick-next {
+        right: 0px;
+    }
+    .doctor-header {
+       width: 100%;
+        margin-top: 0px; 
+    }
+    .doctor-header h1 {
+        color: #009a7c;
+        font-size: 2rem;
+        line-height: 2.2rem;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .doctor-slider {
+        margin-left: 20px;
+    }
+    .doc-info {
+        display: block;
+    }
+    .doc-pic {
+        max-width: 100%;
+        height: 380px;
+    }
+    .doc-pic-1 {
+        max-width: 100%;
+    }
+    .slick-prev {
+        left: 0px;
+    }
+    .prose-para {
+        padding: 0px 10px 0 10px;
+        color: white;
+    }
+    .doc-right-info {
+        border-left: none; 
+         padding-right: 0px; 
+    }
+    .other-News {
+        padding-top: 0px;
+        
+    }
+
+    /* home page from area  */
+    .rediology-form-here {        
+        padding: 20px;
+    }
+    .form-area {
+        display: block;        
+    }
+    .form-relative {
+        margin-left: 0px;
+    }
+    .form-relative-1 {
+        width: 100%;
+    }
+    .form-relative-contact {
+        display: block;        
+    }
+    .widd-haf-l {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .widd-haf-r {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .relative-contact {
+        width: 100%;
+        display: block;
+        align-items: center;
+        
+    }
+     /* footer area style here   */
+     .fotter-logo {
+        padding-right: 100px;
+        padding: 20px 20px 20px 0px;
+    }
+    .our-footer-area {
+        background-color: #fff;
+        padding: 60px 30px;
+        margin-left: 0px;
+        padding-bottom: 0;
+    }
+    .footer-bottom {
+        background-color: #0067b6;
+        display: block;
+        padding: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .footer-end{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-location-btn{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .footer-end-btn{
+        border: 0;
+        background: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
     }
 }
 

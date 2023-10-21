@@ -54,21 +54,24 @@
 					settings: {
 					  slidesToShow: 2,
 					  slidesToScroll: 2,
-					  infinite: true,					  
+					  infinite: true,
+					  button: true,					  
 					}
 				  },
 				  {
 					breakpoint: 960,
 					settings: {
 					  slidesToShow: 1,
-					  slidesToScroll: 1
+					  slidesToScroll: 1,
+					  button: true,
 					}
 				  },
 				  {
 					breakpoint: 720,
 					settings: {
 					  slidesToShow: 1,
-					  slidesToScroll: 1
+					  slidesToScroll: 1,
+					  button: true,
 					}
 				  }
 				  // You can unslick at a given breakpoint now by adding:
@@ -91,6 +94,7 @@
 					  slidesToShow: 1,
 					  slidesToScroll: 1,
 					  infinite: true,
+					  button: true,
 					  
 					}
 				  },
@@ -98,14 +102,16 @@
 					breakpoint: 992,
 					settings: {
 					  slidesToShow: 1,
-					  slidesToScroll: 1
+					  slidesToScroll: 1,
+					  button: true,
 					}
 				  },
 				  {
 					breakpoint: 720,
 					settings: {
 					  slidesToShow: 1,
-					  slidesToScroll: 1
+					  slidesToScroll: 1,
+					  button: true,
 					}
 				  }
 				  // You can unslick at a given breakpoint now by adding:
