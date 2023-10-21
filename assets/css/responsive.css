@@ -1,189 +1,126 @@
-/* ------------------------------------------------- Large Screen. 1200 ---------------------------------------------------*/
-@media (min-width: 1440px) and (max-width: 1800px) {
+/* new destop-leyout-*/
 
-}
-/* ------------------------------------------------- Large Screen. 1200 ---------------------------------------------------*/
- @media (min-width: 1200px) and (max-width: 1660px) {
-    #scrollUp {
-        right: 30px;
-   }
-}
-/* ------------------------------------------------- Large Screen. 1025 ---------------------------------------------------*/
- @media (min-width: 1025px) and (max-width: 1800px) {
-}
-/* ------------------------------------------------- Large Screen. 1024 ---------------------------------------------------*/
- @media (min-width: 1024px) and (max-width: 1600px) {
-    /* project area */
-    .our_project {
-        padding-left: 50px!important;
-        padding-right: 50px!important;
+@media only screen and (min-width: 1320px) and (max-width:1600px){
+
+    .footer-left {
+        margin-left: 100px;
+        margin-right: 80px;
     }
-}
-/* ------------------------------------------------- Laptop Screen 1366 ---------------------------------------------------*/
- @media (min-width: 1170px) and (max-width: 1366px) {
-     
-}
-/* ------------------------------------------------- Old Desktop :1365-1660 ---------------------------------------------------*/
- @media (min-width: 1365px) and (max-width: 1660px) {
     
 }
+@media only screen and (min-width: 1200px) and (max-width:1400px){
+
+    .footer-left {
+        margin-left: 100px;
+        margin-right: 80px;
+    }
+    
+}
+    
+
 /* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
- @media (min-width: 992px) and (max-width: 1380px) {
-    /* section title */
-    .witr_section_title_inner h1,.witr_section_title_inner h3 {
-        font-size:35px
+ @media (min-width: 992px) and (max-width: 1200px) {
+    /* our heder area  */
+    .radiology_menu > ul > li > a {        
+        margin: 25px 10px;
+        font-size: 14px;        
     }
-    /* main menu */
-    .sefti_menu > ul > li > a {
-        font-size: 15px;
-        margin-right: 12px;
-        margin-left: 12px;
+
+    .right-menu a {
+        color: #fff;
+        font-size: 14px;
     }
-    /* project ara */
-    .our_project {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+    .right-menu {
+        margin-left: 20px;
     }
-}
-@media (min-width: 1301px) and (max-width:1440px) {
-    /* bannner area */
-    .section-full-width .banner_container {
-        width:82%!important
+    .bill-paying {        
+        padding: 30px 45px;       
+        font-size: 18px;
+       
     }
-}
-@media (min-width: 992px) and (max-width:1300px) {
-    /* banner area */
-    .section-full-width .banner_container {
-        width:93%!important
+    .top-form-control input {        
+        font-size: 36px;        
+        height: 80px;      
+       
     }
-    .banner-inner h2 {
-        font-size: 60px
+    /* hero area style here  */
+    .hero-info-area {
+        margin-left: 0px;
     }
-}
-/* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
- @media (min-width: 992px) and (max-width: 1199px) {
-    /* section title */
-    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
-        width:67%
+    .hero-area {
+        position: absolute;
+        bottom: 100px;
+        left: 20px;
     }
-    /* nav area */
-    .sefti_menu > ul > li > a {
-        font-size: 15px;
-        margin-right: 7px;
-        margin-left: 7px;
+ 
+    .heroSlider .slick-next {
+        right: -20px;
     }
-    .witr_ds_content {
-        height:840px!important
+    .heroSlider .slick-prev {
+        left: -20px;
     }
-    .witr_ds_content_inner h2 {
-        font-size: 50px
+
+    /* our doctor slider area here  */
+    .doctor-slider {
+        margin-left: 40px;
     }
-    /* service area */
-    .service_desc h2 {
-        font-size: 30px;
-    }
-    /* slick slider btn */
-    .op_wrapper .slick-next, .op_wrapper .slick-prev, .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
+    .doc-info {
         display: block;
-        opacity: 1;
-        visibility: visible;
     }
-    .op_wrapper .slick-prev, .op_wrapper .slick-next {
-        top: 50%;
-        transform: translateY(-50%);
+    .slick-slide img {
+        display: block;
+        max-width: 100%; 
+        margin: auto;
+        
     }
-    .op_wrapper .slick-prev {
-        left: 0;
+    .doc-pic-1{
+        max-width: 100%;
     }
-    .op_wrapper .slick-next {
-        right: 0;
+    .doc-pic {        
+        max-width: 100%;
     }
-    .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
-        opacity: 1;
+    .doc-right-info {
+       padding-right: 20px;
     }
-    /* price area */
-    .pricing-menu {
-        padding-left: 20px!important;
+    .doctor-header h1 {
+        margin-left: 20px;
+        font-size: 2rem;        
     }
-    /* footer area */
-    .footer-middle .container {
-        padding: 0 10%;
+    .doctor-slider .slick-next {
+        right: 0px;
     }
-    /* scroll up  */
-    #scrollUp {
-        bottom: 60px;
-        right: 30px;
+
+    /* our from area  */
+    .rediology-form-here {
+        background-color: #e6e9e6;
+        padding: 60px;
     }
+    /* footer area style here  */
+    .our-footer-area {
+        background-color: #fff;
+        padding: 60px 0;
+        margin-left: 30px;
+    }
+    .footer-nevigetion a {       
+        font-size: 14px;
+    }
+    .single-one h2 {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    
+    
+
+
 }
 /* ------------------------------------------------- Tablet Screen : 768 ---------------------------------------------------*/
- @media (min-width: 768px) and (max-width: 991px) {
-    /* section title */
-	.witr_section_title_inner h1,.witr_section_title_inner h3 {
-        font-size:27px
-    }
-    .witr_section_title_inner.text-center p,.witr_section_title_inner.text-left p,.witr_section_title_inner.text-right p {
-        width: 83%
-    }
-    /* banner */
-    .section-full-width .banner_container {
-        margin:auto;
-        width: 90%!important
-    }
-    .banner-inner h1 {
-        text-align: center;
-    }
-    .banner-inner h2 {
-        font-size: 48px;
-        text-align: center;
-        width: 100%;
-    }
-    .banner-inner  p{
-        width: 100%;
-        text-align: center;
-    }
-    /* slick slider btn */
-    .op_wrapper .slick-next, .op_wrapper .slick-prev, .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-    }
-    .op_wrapper .slick-prev, .op_wrapper .slick-next {
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .op_wrapper .slick-prev {
-        left: 0;
-    }
-    .op_wrapper .slick-next {
-        right: 0;
-    }
-    .op_wrapper .slick-next::before, .op_wrapper .slick-prev::before {
-        opacity: 1;
-    }
-    /* footer area */
-    .footer-middle .container {
-        padding: 0 10%;
-    }
-    /* scroll up  */
-    #scrollUp {
-        bottom: 60px;
-        right: 30px;
-    }
+ @media (min-width: 768px) and (max-width: 991px) { 
+    
+   
 }
 /* menu and logo show & hide */
  @media (min-width: 10px) and (max-width: 991px){
-    /* top menu */
-    .left-contact {
-        display: block;
-        text-align: center;
-    }
-    .left-contact .address, .left-contact .phone, .left-contact .mail {
-        margin-right: 10px;
-        display: inline-block;
-    }
-    .right-contact .social-icons {
-        text-align: center!important;
-    }
+    
     /* mobile menu */
      .mobile-menu{
          display:block !important;
@@ -200,36 +137,14 @@
     .search_popup_button, .tx_mmenu_together{
 		display: none;
 	}
-    /* banner area */
-    .banner-btn {
-        text-align: center;
-    }
-    /* service area */
-    .service_desc h2 {
-        font-size: 28px;
-    }
-    /* team area */
-    .single_team {
-        padding-bottom: 80px;
-    }
-    .single_team:hover {
-        padding-bottom: 130px;
-    }
-    /* project area */
-    .our_project {
-        padding-right: 0!important;
-        padding-left: 0!important;
-    }
-    /* faq form */
-    .fra_inner {
-        margin-left: 0;
-    }
-    /* about area */
-    .about_content {
-        padding: 30px 0 0;
-        margin-left: 0;
+    .our-footer-area {
+        background-color: #fff;
+        padding: 60px 0;
+        margin-left: 30px;
     }
 }
+
+   
 /* ------------------------------------------------- Small Mobile : 320 ---------------------------------------------------*/
  @media (max-width: 767px) {
     .radiology-main-menu .logo a.main_sticky_main_l {
@@ -250,6 +165,15 @@
         width: 290px;        
         left: 0;        
     }
+    .hero-btn {
+        padding: 20px 25px;        
+        margin-top: 20px;
+    }
+    .hero-area {        
+        bottom: 50px;
+        left: px;
+        background: black;
+    }
     .mean-container .mean-bar, .mean-container .mean-bar * {       
         background: #fff;
     }
@@ -263,11 +187,33 @@
         font-size: 26px;
         
     }
-}
-/* ------------------------------------------------- Large Mobile :480px. ---------------------------------------------------*/
- @media only screen and (min-width: 480px) and (max-width: 767px) {
-   
-    
-   
+    .bg-hero-mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border: 0;
+        background: red;
+        color: #fff;
+        padding: 20px;
+    }
+    .our-footer-area {
+        background-color: #fff;
+        padding: 60px 0;
+        margin-left: 30px;
+    }
+    .hero-area {       
+        left: 0px;
+    }
+    .hero-info-area {
+        margin-left: 20px;
+    }
+    .hero-heding {        
+        font-size: 1.75rem;
+        
+    }
+    .hero-heding-one {        
+        font-size: 1.75rem;        
+    }
 }
 
