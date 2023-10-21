@@ -187,8 +187,7 @@ a:hover{
     margin-left: 50px;
 }
 .right-menu-a{
-    border-bottom: 2px solid #fff;
-    font-weight: 700;
+    border-bottom: 2px solid #fff;    
     padding-left: 4rem;
     margin-top: 0.75rem;
 }
@@ -879,10 +878,57 @@ a.dtbtn:hover {
     background-color: #fff; 
     padding: 60px 0;   
 }
-.footer-left{
+.footer-left {
     margin-left: 300px;
+    margin-right: 80px;
 }
 .right-main-footer{
     display: flex;
+    justify-content: space-between;
 }
+.fotter-logo p{
+    line-height: 2;
+    margin-top: 3.5rem;
+    font-size: 1.125rem;
+}
+.footer-right{
+    padding-left: 20px;
+}
+.footer-right-heder{
+    font-weight: 700;
+    color: #0067B6;
+    font-size: 1.2rem;
+}
+.footer-nevigetion a{
+    color: #0067B6;    
+}
+.footer-nevigetion a:hover{
+    color: #0067B6 !important;  
+}
+.mx-px{
+    color: #0067B6;
+}
+.single-footer{
+    width: 33.33%;
+    
+}
+.single-one h2{
+    font-size: 1rem;
+    font-weight: 700
+}
+.single-one{
+    margin: 30px 0;
+    display: block;
+}
+.single-one p{
+    margin:  0;
+}
+.single-footer-contact a{
+    display: block;
+    color: #030925;
+}
+.single-footer-contact a:hover{    
+    color: #030925 !important;
+}
+
 
