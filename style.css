@@ -958,7 +958,7 @@ a.dtbtn:hover {
     font-size: 32px;
 }
 .dropdown-menu-dex ul li a:hover{
-    color: #030925 !important;
+    color: #fff !important;
 }
 .diagnstic-navegation{
     background-color: #009a7c;
@@ -988,7 +988,7 @@ a.dtbtn:hover {
     background-color:#f1f3f4 ;
 }
 .prose-blog {
-    color: #4D4C4C;
+    color: #d2d1d1;
     font-size: 3.4rem;
     position: absolute;
     bottom: 530px;
@@ -1008,4 +1008,16 @@ a.dtbtn:hover {
     padding: 25px 30px;
 }
 
+/* interventional page style start here  */
+.interventional-services{
+    padding: 40px 0;
+}
+.interven-services-heding {
+    color: #fff;
+    font-size: 28px;
+}
+.interven-slider-heding{
+    font-weight: 600;
+    font-size: 3rem;
+}
 
