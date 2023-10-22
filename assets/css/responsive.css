@@ -5,6 +5,28 @@
     .our-footer-area {        
         margin-left: 30px;
     }
+    /* diagnostic
+     page style start here  */
+     .diagnostic-navigation-blog {
+        margin-left: 0px;
+    }
+    .diagnostic-blog-info {
+        margin: 40px;
+    }
+    .prose-blog {
+        color: #4D4C4C;
+        font-size: 3.4rem;
+        position: inherit;        
+        line-height: 1;
+    }
+    .dropdown-menu-dex ul li a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .dropdown-menu-dex ul li {
+        list-style: none;
+        margin: 20px 30px;
+    }
     
 }
 @media only screen and (min-width: 1200px) and (max-width:1400px){
@@ -13,6 +35,29 @@
         margin-left: 100px;
         margin-right: 80px;
     }
+    /* diagnostic
+     page style start here  */
+     .diagnostic-navigation-blog {
+        margin-left: 0px;
+    }
+    .diagnostic-blog-info {
+        margin: 40px;
+    }
+    .prose-blog {
+        color: #4D4C4C;
+        font-size: 3.4rem;
+        position: inherit;        
+        line-height: 1;
+    }
+    .dropdown-menu-dex ul li a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .dropdown-menu-dex ul li {
+        list-style: none;
+        margin: 20px;
+    }
+    
     
 }
     
@@ -33,8 +78,8 @@
         margin-left: 20px;
     }
     .bill-paying {        
-        padding: 30px 45px;       
-        font-size: 18px;
+        padding: 30px 30px;       
+        font-size: 16px;
        
     }
     .top-form-control input {        
@@ -106,6 +151,28 @@
     .single-one h2 {
         font-size: 0.8rem;
         font-weight: 700;
+    }
+    /* diagnostic
+     page style start here  */
+     .diagnostic-navigation-blog {
+        margin-left: 0px;
+    }
+    .diagnostic-blog-info {
+        margin: 40px;
+    }
+    .prose-blog {
+        color: #4D4C4C;
+        font-size: 3.4rem;
+        position: inherit;        
+        line-height: 1;
+    }
+    .dropdown-menu-dex ul li a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .dropdown-menu-dex ul li {
+        list-style: none;
+        margin: 20px;
     }
     
     
@@ -299,6 +366,55 @@
         color: #fff;
         text-transform: uppercase;
         font-size: 16px;
+    }
+
+    /* diagnostic
+     page style start here  */
+    .diagnstic-hero-heding {       
+        bottom: 100px;        
+        color: #fff;
+        font-size: 3rem;
+        left: 20px;
+    }
+    .dropdown-menu-dex{
+        display: none;
+    }
+    .diagnostic-nav-mobile {
+        display: block;
+    }
+    .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+        position: relative;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .btn-secondary {
+        cursor: pointer;
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+    }
+    .diagnostic-nav-mobile ul li a{
+        color: #009a7c;
+    }
+    .diagnostic-navigation-blog {
+        margin-left: 0px;
+    }
+    .diagnostic-blog-info {
+        margin: 20px;
+    }
+    .prose-blog {
+        color: #4D4C4C;
+        font-size: 3rem;
+        position: inherit;
+        bottom: px;
+        line-height: 1;
+    }
+    .diagnostic-form{
+        display: block;
+    }
+    .diagnostic-wraper-btn{
+        display: none;
     }
    
 }
@@ -526,6 +642,42 @@
         color: #fff;
         font-size: 3rem;
         left: 20px;
+    }
+    .dropdown-menu-dex{
+        display: none;
+    }
+    .diagnostic-nav-mobile {
+        display: block;
+    }
+    .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+        position: relative;
+        padding: 40px 20px;
+    }
+    .btn-secondary {
+        cursor: pointer;
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+    }
+    .diagnostic-nav-mobile ul li a{
+        color: #009a7c;
+    }
+    .diagnostic-navigation-blog {
+        margin-left: 0px;
+    }
+    .diagnostic-blog-info {
+        margin: 20px;
+    }
+    .prose-blog {
+        color: #4D4C4C;
+        font-size: 3rem;
+        position: inherit;
+        bottom: px;
+        line-height: 1;
+    }
+    .diagnostic-form{
+        display: block;
     }
 }
 

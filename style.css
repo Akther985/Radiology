@@ -975,4 +975,37 @@ a.dtbtn:hover {
 .diagnostic-blog-info{
     margin: 140px 140px 140px 40px;
 }
+.diagnostic-blog-btn{
+    background-color: #0067B6;
+    padding: 20px 25px;
+    margin-top: 30px;
+    color: white;
+    display: inline-block;
+    text-transform: capitalize;
+    
+}
+.diagnostic-blog-next{
+    background-color:#f1f3f4 ;
+}
+.prose-blog {
+    color: #4D4C4C;
+    font-size: 3.4rem;
+    position: absolute;
+    bottom: 530px;
+    line-height: 1;
+}
+.diagnostic-wraper{
+    position: relative;
+}
+.diagnostic-form{
+    display: none;
+}
+.diagnostic-wraper-btn{
+    margin-left: 400px;
+    border: 0;
+    background-color: #e6e9e6;
+    color: #0067B6;
+    padding: 25px 30px;
+}
+
 
