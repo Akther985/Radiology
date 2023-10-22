@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-   <meta charset="UTF-8">   
+   <meta charset="UTF-8">
+   <!-- <meta http-equiv="refresh" content="5"> -->
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <title>Radiology Associates</title>
    <meta name="script" content="">
@@ -9,10 +10,7 @@
    <!-- Favicon Icon -->
    <link rel="icon" type="image/png" href="assets/images/logo.svg">
    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
-   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css.map">
-   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css.map">     
-   <link rel="stylesheet" type="text/css" href="assets/css/plugin_theme_css.css"> 
+   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">   
    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css">
    <link rel="stylesheet" type="text/css" href="venobox/venobox.css">   
    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
@@ -20,7 +18,7 @@
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">  
    <!-- modernizr js -->
-   <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+   <script src="assets/js/modernizr-2.8.3.min.js"></script>
 </head>
 <body>  
   <header class="our-header-area">
@@ -105,6 +103,7 @@
          </div>
       </div>
    </div>
+
    <!-- mobile menu -->
    <div class="mobile_logo_area">
       <div class="container">
@@ -166,7 +165,121 @@
    </div>
   </header>
   <!-- our main area start here  -->
-  <main> 
+  <main>
+   <div class="diagnstic-hero-area" >
+      <h1 class="diagnstic-hero-heding">Diagnostic</h1>
+      <button class="bg-hero-mobile">online bill pay</button>
+   </div>
+   <section class="diagnostic-wraper">
+      <div class="diagnstic-navegation">
+         <div class="diagnostic-nav">
+            <div class="dropdown-menu-dex">
+               <ul>
+                 <li><a class="drop-item" href="#">MRI (Magnetic Resonance Imaging) </a></li>
+                 <li><a class="drop-item" href="#">CT (Computed Tomography)</a></li>
+                 <li><a class="drop-item" href="#">MRI (Magnetic Resonance Imaging)</a></li>
+                 <li><a class="drop-item" href="#">Nuclear Medicine</a></li>
+                 <li><a class="drop-item" href="#">Digital Mammography with CAD</a></li>
+                 <li><a class="drop-item" href="#">Ultrasound</a></li>              
+               </ul>
+             </div>
+            <div class="diagnostic-nav-mobile">
+               <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     MRI (Magnetic Resonance Imaging) 
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CT (Computed Tomography)</a></li>
+                    <li><a class="dropdown-item" href="#">MRI (Magnetic Resonance Imaging)</a></li>
+                    <li><a class="dropdown-item" href="#">Nuclear Medicine</a></li>
+                    <li><a class="dropdown-item" href="#">Digital Mammography with CAD</a></li>
+                    <li><a class="dropdown-item" href="#">Ultrasound</a></li>              
+                  </ul>
+                </div>
+            </div>
+         </div>
+      </div>
+      <!-- diagnstic-navegation end here -->
+      <div class="diagnostic-navigation-blog">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-6">
+                  <div class="diagnostic-blog-img">
+                     <img src="assets/images/blog-1.webp" alt="blog-1">
+                  </div>                 
+               </div>
+               <div class="col-xl-6">
+                  <div class="diagnostic-blog-info">
+                     <div class="prose">
+                        <p>Digital Radiography and Fluoroscopy Digital Radiography (x-rays) use a small amount of ionizing radiation to produce images of bones and tissue without requiring actual film. X-rays are useful for examining lungs and bone. Fluoroscopy is a type of x-ray imaging used to provide moving images that can be viewed via closed-circuit television monitor. Thus, the radiologist can view specific body parts while they are functioning. Fluoroscopy is especially valuable in evaluating the lower gastrointestinal system. </p>
+                     </div>
+                     <a class="diagnostic-blog-btn" href="contact.html">Schedule Appointment</a>
+                  </div>                 
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-6">
+                  <div class="diagnostic-blog-img">
+                     <img src="assets/images/blog-2.webp" alt="blog-2">
+                  </div>                 
+               </div>
+               <div class="col-xl-6">
+                  <div class="diagnostic-blog-info">
+                     <div class="prose prose-blog">
+                        <p>Providing Cutting-Edge Diagnostic Imaging and Intervention </p>
+                     </div>
+                     <a class="diagnostic-blog-btn" href="contact.html">Schedule Appointment</a>
+                  </div>                 
+               </div>
+            </div>
+         </div>         
+      </div>
+      <button class="diagnostic-wraper-btn">Schedule an Appointment</button>
+   </section> 
+   <section class="radiology-form-area diagnostic-form">
+      <div class="container">
+         <div class="row">
+            <div class="col-12  p-0">
+               <div class="rediology-form-here">
+                  <div class="radiology-form-heding">
+                     <h2>Schedule an Appointment</h2>
+                      <p class="radiology-form-req">*Required Field</p>
+                  </div>
+                  <form action="#"  method="post" name="AppointmentSchedule">
+                     <input type="hidden" name="form-name" value="AppointmentSchedule">                     
+                        <div class="relative"><input type="text" name="name" value="" id="name" placeholder="Name" class="w-full"></div> 
+                        <div class="relative"><input type="text" name="address" value="" placeholder="address" class="w-full"></div>
+                        <div class="form-area">
+                           <div class="form-relative-1"><input type="text" name="city" value="" id="city" placeholder="city" class="form-city"></div>
+                           <div class="form-relative"><input type="text" name="state" value="" id="state" placeholder="state"></div>
+                           <div class="form-relative"><input type="number" name="zip" value="" id="zip" placeholder="zip"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="text"  id="phone" name="phone" placeholder="phone" class="widd-haf-l" value=""></div>
+                           <div class="relative-contact"><input type="text" name="fax" value="" placeholder="fax" class="widd-haf-r" id="fax"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="email" name="email" value="" id="email" placeholder="email" class="widd-haf-l" ></div>
+                           <div class="relative-contact">
+                              <div>method of contact</div>
+                              <div role="group"  aria-labelledby="method-of-contact"><label><input type="checkbox" name="contactMethod" value="phone" class="checkbox-box">
+                              <span class="lable-span">Phone</span></label><label><input  type="checkbox" name="contactMethod" value="email" class="checkbox-box"><span class="lable-span">Email</span></label></div>                            
+                           </div>
+                        </div>                          
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="time" name="appointment_time" value="" placeholder="  time" class="widd-haf-l"></div>
+                           <div class="relative-contact"><input type="date" name="appointment_date" value="" placeholder="  date" class="widd-haf-r"></div>                           
+                        </div> 
+                        <div class="relative"><textarea name="comments" id="comments"  placeholder="Comments/Questions" class="w-full w-full-f"></textarea></div>
+                        <div class="form-btn-here">
+                           <button class="submit-btn" type="submit">Submit</button>
+                        </div>
+                 </form>         
+               </div>
+            </div>
+         </div>
+     </div>
+   </section>  
   </main>
   <!-- our footer area start here  -->   
    <footer>
@@ -324,14 +437,14 @@
       </section>        
    </footer> 
    <!-- Include All JS -->      
-   <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+   <script src="assets/js/jquery-3.5.1.min.js"></script>
+   <script src="assets/js/fontawesome.min.js"></script> 
    <script src="assets/js/bootstrap.min.js"></script>
-   <script src="assets/js/bootstrap.min.js.map"></script>      
-   <script src="assets/js/fontawesome.min.js"></script>    
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
    <script src="assets/js/slick.min.js"></script> 
    <script src="assets/js/jquery.appear.js"></script>
+   <script src="assets/js/venobox.min.js"></script>  
    <script src="assets/js/jquery.meanmenu.js"></script>      
-   <script src="assets/js/theme.js"></script>
-   
+   <script src="assets/js/theme.js"></script>   
 </body>
 </html>

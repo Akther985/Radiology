@@ -928,4 +928,51 @@ a.dtbtn:hover {
     border-top-right-radius: 5px;
 }
 
+/* our diagnostic page style start here  */
+.diagnstic-hero-area {
+    background-color: #0e364e;
+    position: relative;
+    height: 400px;
+}
+
+.diagnstic-hero-heding{
+    position: absolute;
+    bottom: 60px;
+    left: 160px;
+    color: #fff;
+    font-size: 5rem ;
+}
+.dropdown-menu-dex ul {
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+.dropdown-menu-dex ul li{
+    list-style: none;
+    margin: 40px;
+
+}
+.dropdown-menu-dex ul li a{
+    color: #fff;
+    font-size: 32px;
+}
+.dropdown-menu-dex ul li a:hover{
+    color: #030925 !important;
+}
+.diagnstic-navegation{
+    background-color: #009a7c;
+}
+.diagnostic-nav-mobile{
+    display: none;
+}
+.diagnostic-navigation-blog{
+    margin-left: 200px;
+}
+.diagnostic-blog-img img{
+    width: 100%;
+}
+.diagnostic-blog-info{
+    margin: 140px 140px 140px 40px;
+}
 
