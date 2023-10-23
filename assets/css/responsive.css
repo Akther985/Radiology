@@ -577,8 +577,9 @@
     }
     .mobile_menu_o i {
         font-size: 26px;
-        
-    }
+        font-style: normal;
+    }       
+    
     .bg-hero-mobile {
         display: block;
         position: absolute;
@@ -662,7 +663,14 @@
         padding-top: 0px;
         
     }
-
+    .doc-right-info {        
+        display: none;
+    }
+ .info-ml {
+    margin: 20px;
+    color: white;
+    /* margin-top: 20px; */
+}
     /* home page from area  */
     .rediology-form-here {        
         padding: 20px;

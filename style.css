@@ -1067,4 +1067,87 @@ a.dtbtn:hover {
 .diagnostic-blog-img {
     margin-left: 200px;
 }
+
+/* teleradiology page style start here  */
+.teleradiology-nav ul{
+    display: flex;
+    justify-content: left;
+
+} 
+.teleradiology-navigation-blog{    
+    margin: 0 200px;
+    margin-top: -60px;
+}
+.teleradiology-next-blog{
+    margin: 40px 300px;
+}
+.teleradiology-blog-img img{
+    width: 100%;
+}
+.teleradiology-blog-info h1{
+    color: #0067B6;
+}
+.teleradiology-blog-info p{    
+    line-height: 2;
+}
+.teleradiology-blog-btn{
+    background-color: #0067B6;
+    padding: 20px 30px;
+    color: #fff;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+/* mobile drwopdawon menu  */
+.dropdown-toggle::after {
+    content: "\f107";   
+    font-family: FontAwesome !important;
+    font-weight: 700;
+    border: none;
+    background: #fff;
+    color: #009a7c;
+    border-radius: 100%;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+button:focus:not(:focus-visible)::after {
+    content: "\f107";
+    transform: rotate(180deg);
+    transition: .3s;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {    
+    background: none;    
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
     
+
+.s-btn-secondary{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: none;    
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.dropdown-menu{
+    background: #009a7c;
+
+}
+.dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: relative;
+    padding: 40px 20px;    
+    display: flex;
+    justify-content: center;
+}
+.dropdown-item{
+    white-space: initial;
+}
