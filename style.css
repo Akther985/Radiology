@@ -1009,6 +1009,14 @@ a.dtbtn:hover {
 }
 
 /* interventional page style start here  */
+.interventional-wraper{    
+    
+
+}
+.interventional-navegation{
+    background-color: #009a7c; 
+    padding: 60px 200px;
+}
 .interventional-services{
     padding: 40px 0;
 }
