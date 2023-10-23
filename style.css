@@ -1009,10 +1009,7 @@ a.dtbtn:hover {
 }
 
 /* interventional page style start here  */
-.interventional-wraper{    
-    
 
-}
 .interventional-navegation{
     background-color: #009a7c; 
     padding: 60px 200px;
@@ -1028,4 +1025,46 @@ a.dtbtn:hover {
     font-weight: 600;
     font-size: 3rem;
 }
-
+.navigation-blog{
+    position: relative;
+}
+.navigation-prose-blog p {
+    color: #d2d1d1;
+    font-size: 3.4rem;
+    position: absolute;
+    top: 440px;
+    line-height: 1;
+    margin-right: 200px;
+}
+.interven-slider-info{
+    display: flex;
+}
+.interven-slider-info img {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.invo-slider-infom{
+    width: 65%;
+}
+.invo-slider-list{
+    display: flex;
+    justify-content: space-between;
+}
+.invo-slider-list a {
+    color: #0067B6;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.invo-slider-list a:hover{
+    color: #0067B6 !important;
+}
+.interven-single-slider h2{
+    color: #919aa7;
+}
+.diagnostic-blog-img {
+    margin-left: 200px;
+}
+    

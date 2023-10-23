@@ -27,6 +27,18 @@
         list-style: none;
         margin: 20px 30px;
     }
+     /* interventional page style start here  */
+     .navigation-prose-blog p {        
+        font-size: 2.8rem;
+        position: inherit;        
+        margin-right: 0px;
+    }
+    .invo-slider-list a {        
+        font-size: 14px;        
+    }
+    .diagnostic-blog-img {
+         margin-left: 20px; 
+    }
     
 }
 @media only screen and (min-width: 1200px) and (max-width:1400px){
@@ -57,6 +69,7 @@
         list-style: none;
         margin: 20px;
     }
+    
     
     
 }
@@ -174,7 +187,39 @@
         list-style: none;
         margin: 20px;
     }
-    
+    /* interventional page style start here  */
+    .interventional-navegation {
+        background-color: #009a7c;
+        padding: 20px 20px;
+    }
+    .interven-services-heding {        
+        font-size: 22px;
+    }
+    .diagnostic-blog-img {
+        margin-left: 0px; 
+    }
+    .navigation-prose-blog p {        
+        font-size: 2.8rem;
+        position: inherit;
+        margin-right: 0px;
+    }
+    .interven-slider-heding {       
+        font-size: 2.2rem;
+    }
+    .interven-slider-heding {
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+.interven-slider-heding {
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+.invo-slider-infom {
+    width: 50%;
+}
+.invo-slider-list {
+    display: block;    
+}
     
 
 
@@ -416,6 +461,51 @@
     .diagnostic-wraper-btn{
         display: none;
     }
+    /* interventional page style start here  */
+    .interventional-navegation {       
+        padding: 60px 20px;
+    }
+    .interventional-nav-heding{
+        display: none;
+    }
+    .diagnostic-blog-img {
+        margin-left: 0px; 
+    }
+    .navigation-prose-blog p {
+        color: #d2d1d1;        
+        position: inherit;  
+        font-size: 2.4rem;      
+        line-height: 1;
+        margin: 0px;
+    }
+    .interven-slider{
+        margin-top: 20px;
+    }
+    .interven-slider-heding {
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .interven-slider-info {
+        display: block;
+        padding: 0 40px;
+    }
+    .invo-slider-infom {
+        width: 100%;
+    }
+    .intervenSlider .slick-next {
+        right: 0px;
+    }
+    .invo-slider-list {
+        display: block;        
+    }
+    .interven-single-slider{
+        text-align: center;
+    }   
+    .interven-slider-info img {        
+        margin: auto;
+    } 
+    
+
    
 }
 /* menu and logo show & hide */
@@ -442,6 +532,7 @@
         padding: 60px 0;
         margin-left: 30px;
     }
+
 
     
 }
@@ -679,5 +770,43 @@
     .diagnostic-form{
         display: block;
     }
+    /* interventional page style start here  */
+    .interventional-navegation {       
+        padding: 60px 20px;
+    }
+    .interventional-nav-heding{
+        display: none;
+    }
+    .diagnostic-blog-img {
+        margin-left: 0px; 
+    }
+    .navigation-prose-blog p {
+        color: #d2d1d1;        
+        position: inherit;  
+        font-size: 2.4rem;      
+        line-height: 1;
+        margin: 0px;
+    }
+    .interven-slider{
+        margin-top: 20px;
+    }
+    .interven-slider-heding {
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .interven-slider-info {
+        display: block;
+        padding: 0 40px;
+    }
+    .invo-slider-infom {
+        width: 100%;
+    }
+    .intervenSlider .slick-next {
+        right: 0px;
+    }
+    .invo-slider-list {
+        display: block;        
+    }
+   
 }
 
