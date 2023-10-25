@@ -646,7 +646,7 @@ a.dtbtn:hover {
     color: #fff;
     font-weight: 900;
     font-size: 18px;
-    
+    font-style: normal;
 }
 .icofont-close-line:before {
     content: "\f057";
@@ -1069,7 +1069,7 @@ a.dtbtn:hover {
 }
 
 /* teleradiology page style start here  */
-.teleradiology-nav ul{
+.teleradiology-nav .dropdown-menu-dex ul{
     display: flex;
     justify-content: left;
 
@@ -1151,3 +1151,12 @@ button:focus:not(:focus-visible)::after {
 .dropdown-item{
     white-space: initial;
 }
+.teleradiology-nav-mobile{
+    display: none;
+}
+
+/* our Patients page area style start here  */
+.our-Patients-wraper{
+    margin: 40px 200px;
+}
+

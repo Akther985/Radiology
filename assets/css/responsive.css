@@ -759,8 +759,8 @@
         border-bottom: 1px solid white;
         border-radius: 0;
     }
-    .diagnostic-nav-mobile ul li a{
-        color: #009a7c;
+    .dropdown-menu {
+        background: white;
     }
     .diagnostic-navigation-blog {
         margin-left: 0px;
@@ -780,7 +780,7 @@
     }
     /* interventional page style start here  */
     .interventional-navegation {       
-        padding: 60px 20px;
+        padding: 0px 20px;
     }
     .interventional-nav-heding{
         display: none;
@@ -815,6 +815,35 @@
     .invo-slider-list {
         display: block;        
     }
-   
-}
+    .dropdown-toggle {
+        white-space: inherit; 
+    }
+    .s-btn-secondary {
+         display: block;
+         font-size: 20px; 
+    }
+    .dropdown-menu.show {
+        display: block;
+        transform: translate3d(0px, 104px, 0px) !important;
+    }
+    .dropdown-item {
+        white-space: initial;
+        margin: 20px 10px;
+        font-size: 18px;
+    }
+    /* teleradiology page style start here  */
+    .teleradiology-navigation-blog {
+        margin: 0 0px;
+        margin-top: 0px; 
+    }    
 
+    .teleradiology-nav-mobile {
+        display: block;
+    }
+    .teleradiology-next-blog {
+        margin: 0px 0px;
+    }
+
+}
+    
+   
