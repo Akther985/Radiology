@@ -220,6 +220,14 @@
 .invo-slider-list {
     display: block;    
 }
+/* our Patients page style here  */
+.our-Patients-wraper {
+    margin: 0px 0px;
+}
+.Patients-left-blog {
+    margin: 40px 10px;
+}
+
     
 
 
@@ -264,7 +272,7 @@
     }
     .mobile_menu_o i {
         font-size: 26px;
-        
+        font-style: normal;
     }
     .bg-hero-mobile {
         display: block;
@@ -504,6 +512,13 @@
     .interven-slider-info img {        
         margin: auto;
     } 
+    /* our Patients page style start here  */
+    .our-Patients-wraper {
+        margin: 0px 0px;
+    }
+    .Patients-left-blog {
+        margin: 40px 10px;
+    }
     
 
    
@@ -842,6 +857,14 @@
     }
     .teleradiology-next-blog {
         margin: 0px 0px;
+    }
+
+    /* patients page area style here  */
+    .our-Patients-wraper {
+        margin: 0px 0px;
+    }
+    .Patients-left-blog {
+        margin: 40px 10px;
     }
 
 }

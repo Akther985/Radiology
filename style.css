@@ -1156,7 +1156,27 @@ button:focus:not(:focus-visible)::after {
 }
 
 /* our Patients page area style start here  */
-.our-Patients-wraper{
-    margin: 40px 200px;
+.our-Patients-wraper {
+    margin: 100px 200px;
 }
+.Patients-left-blog{
+    margin: 200px 0;
+}
+.Patients-left-blog img{
+    width: 100%;
+}
+.Patients-heder{
+    color: #0067B6;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Patients-right-blog p{
+    font-size: 18px;
+    line-height: 2;
+}
+.Patients-right-blog ol li{
+    margin: 20px 0;
+    color: #030925;
+}
+
 
