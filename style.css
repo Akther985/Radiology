@@ -1178,5 +1178,88 @@ button:focus:not(:focus-visible)::after {
     margin: 20px 0;
     color: #030925;
 }
+/* our leadersship page style here  */
+.leader-area{
+    margin: 80px 200px;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    margin-left: 10px;
+}
+.accordion-button::after {
+    position: absolute;
+    left: 0px;
+    content: "\2b" !important;
+    font-size: 22px;
+    background-image: none;
+    font-family: FontAwesome !important;
+}
+.accordion-button:not(.collapsed) {    
+    background-color: none; 
+    box-shadow: 0;
+}
+.accordion-button:not(.collapsed)::after {    
+    content: "\f068" !important;
+    background-image: none;
+    transform: none !important;
+    font-family: FontAwesome !important; 
+}
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #fff;
+    
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: 0 none ;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion{
+    margin: 40px 0;
+}
+.accordion-item {    
+    border: none;
+    border-bottom: 1px solid #444;
+    border-radius: none;
+}
+.accordion-item:last-child {
+    border: none;
+    
+}
+.single-leader-heding{
+    display: flex;
+    align-items: center;
+    
+}
+.single-leader-heding img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.single-leader-info{
+    margin-left: 20px;
+}
+.single-leader-info h3{
+    font-weight: 700;
+    font-size: 32px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.single-leader-info p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.extra-para{
+    color: #b3b0b0;
+}
 
 
+
+
+
+
+
+
+ 
+ 
