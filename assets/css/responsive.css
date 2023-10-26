@@ -39,6 +39,12 @@
     .diagnostic-blog-img {
          margin-left: 20px; 
     }
+    /* our team page style here  */
+
+    .team-area {
+        margin: 80px 100px;
+    }
+    
     
 }
 @media only screen and (min-width: 1200px) and (max-width:1400px){
@@ -72,6 +78,11 @@
 
     /* our leadership page style here  */
     .leader-area {
+        margin: 80px 100px;
+    }
+    /* our team page style here  */
+
+    .team-area {
         margin: 80px 100px;
     }
     
@@ -237,6 +248,20 @@
 /* our leadersheep page style start here  */
 .leader-area {
     margin: 60px 20px;
+}
+
+ /* our team  page style start here   */
+.team-area {
+    margin: 60px 20px;
+}
+.single-leader-img {
+    width: 50%;
+}
+.single-leader-heding img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
     
@@ -547,6 +572,18 @@
         background-color: #0e364e;
         position: relative;
         height: 300px;
+    }
+
+    /* team page style start here  */
+    .team-area {
+        margin: 40px 20px;
+    }
+    .single-leader-info {
+        margin-left: 30px;
+        margin-top: 0;
+    }
+    .single-leader-heding {
+        display: flex;
     }
     
 
@@ -913,6 +950,15 @@
         background-color: #0e364e;
         position: relative;
         height: 300px;
+    }
+
+    /* our team page style start here  */
+    .team-area {
+        margin: 40px 20px;
+    }
+    .single-leader-info {
+        margin-left: 0px;
+        margin-top: 20px;
     }
 
 }

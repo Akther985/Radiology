@@ -1000,12 +1000,14 @@ a.dtbtn:hover {
 .diagnostic-form{
     display: none;
 }
-.diagnostic-wraper-btn{
+.diagnostic-wraper-btn {
     margin-left: 400px;
     border: 0;
     background-color: #e6e9e6;
     color: #0067B6;
     padding: 25px 30px;
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
 /* interventional page style start here  */
@@ -1224,7 +1226,7 @@ button:focus:not(:focus-visible)::after {
 }
 .accordion-item {    
     border: none;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #e5e7eb;
     border-radius: none;
 }
 .accordion-item:last-child {
