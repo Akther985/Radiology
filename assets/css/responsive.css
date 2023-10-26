@@ -69,6 +69,11 @@
         list-style: none;
         margin: 20px;
     }
+
+    /* our leadership page style here  */
+    .leader-area {
+        margin: 80px 100px;
+    }
     
     
     
@@ -226,6 +231,12 @@
 }
 .Patients-left-blog {
     margin: 40px 10px;
+}
+
+
+/* our leadersheep page style start here  */
+.leader-area {
+    margin: 60px 20px;
 }
 
     
@@ -519,6 +530,24 @@
     .Patients-left-blog {
         margin: 40px 10px;
     }
+     /* our leader page style here  */
+     .leader-area {
+        margin: 40px 20px;
+    }
+    .single-leader-heding {
+        display: block;        
+    }
+    .single-leader {
+        margin-left: 0px; 
+    }
+    .accordion-body {
+        padding: 20px 0;
+    }
+    .diagnstic-hero-area {
+        background-color: #0e364e;
+        position: relative;
+        height: 300px;
+    }
     
 
    
@@ -563,7 +592,7 @@
         position: relative;          
         color: #444;;
         text-transform: uppercase;
-        font-size: 16px;        
+        font-size: 12px;        
         
     }
     .mobile-Search::after {
@@ -865,6 +894,25 @@
     }
     .Patients-left-blog {
         margin: 40px 10px;
+    }
+
+    /* our leader page style here  */
+    .leader-area {
+        margin: 40px 20px;
+    }
+    .single-leader-heding {
+        display: block;        
+    }
+    .single-leader {
+        margin-left: 0px; 
+    }
+    .accordion-body {
+        padding: 20px 0;
+    }
+    .diagnstic-hero-area {
+        background-color: #0e364e;
+        position: relative;
+        height: 300px;
     }
 
 }

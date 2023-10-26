@@ -1193,6 +1193,9 @@ button:focus:not(:focus-visible)::after {
     font-size: 22px;
     background-image: none;
     font-family: FontAwesome !important;
+    color: #0067B6;
+    font-weight: 900;
+    
 }
 .accordion-button:not(.collapsed) {    
     background-color: none; 
@@ -1202,7 +1205,8 @@ button:focus:not(:focus-visible)::after {
     content: "\f068" !important;
     background-image: none;
     transform: none !important;
-    font-family: FontAwesome !important; 
+    font-family: FontAwesome !important;
+    font-size: 12px;
 }
 .accordion-button:not(.collapsed) {
     color: #333;
@@ -1236,6 +1240,7 @@ button:focus:not(:focus-visible)::after {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .single-leader-info{
     margin-left: 20px;
@@ -1253,7 +1258,15 @@ button:focus:not(:focus-visible)::after {
 .extra-para{
     color: #b3b0b0;
 }
+.single-leader{
+    margin-left: 20px;
+}
 
+/* our team page style start here  */
+
+.team-area{
+    margin: 80px 200px;
+}
 
 
 
