@@ -1270,6 +1270,34 @@ button:focus:not(:focus-visible)::after {
     margin: 80px 200px;
 }
 
+/* online bill paying page style here  */
+.bill-area{
+    margin: 60px 600px;
+}
+.bill-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.single-bill-heding{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0;
+}
+.single-bill-heding a {
+    color: #0067b6;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.single-bill-heding a:hover{
+    color: #0067b6 !important;
+}
+.bill-heding{
+    color: #030925 !important;
+    
+}
+
+
 
 
 
