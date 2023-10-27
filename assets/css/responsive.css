@@ -44,6 +44,15 @@
     .team-area {
         margin: 80px 100px;
     }
+    /* our bill pay page style here  */
+    .bill-area {
+        margin: 60px 300px;
+       }
+       .single-bill-heding a {
+        color: #0067b6;
+        font-size: 16px;
+        font-weight: 700;
+       }
     
     
 }
@@ -85,6 +94,16 @@
     .team-area {
         margin: 80px 100px;
     }
+    /* our bill pay page style here  */
+    .bill-area {
+    margin: 60px 200px;
+   }
+   .single-bill-heding a {
+    color: #0067b6;
+    font-size: 16px;
+    font-weight: 700;
+   }
+
     
     
     
@@ -263,6 +282,30 @@
     border-radius: 50%;
     object-fit: cover;
 }
+ /* our bill pay page style here  */
+ .bill-area {
+    margin: 60px 20px;
+}
+.single-bill-heding a {
+    color: #0067b6;
+    font-size: 16px;
+    font-weight: 700;
+}
+ /* our resources page style here  */
+ .resources-heder-menu {
+    margin: 40px 200px;
+}
+.resources-list {
+    color: #111827;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+}
+.diagnostic-wraper-btn {
+    margin-left: 200px;    
+}
+
 
     
 
@@ -585,12 +628,34 @@
     .single-leader-heding {
         display: flex;
     }
+     /* our bill pay page style here  */
+     .bill-area {
+        margin: 60px 20px;
+    }
+    .single-bill-heding a {
+        color: #0067b6;
+        font-size: 16px;
+        font-weight: 700;
+    }
+     /* our resources page style here  */
+     .resources-heder-menu {
+        margin: 40px 200px;
+    }
+    .resources-list {
+        color: #111827;
+        text-decoration: underline;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2;
+    }
+
     
 
    
 }
 /* menu and logo show & hide */
  @media (min-width: 10px) and (max-width: 991px){
+
     
     /* mobile menu */
      .mobile-menu{
@@ -612,7 +677,9 @@
         background-color: #fff;
         padding: 60px 0;
         margin-left: 30px;
-    }
+    }   
+
+
 
 
     
@@ -961,6 +1028,29 @@
         margin-top: 20px;
     }
 
-}
+    /* our bill pay page style here  */
+    .bill-area {
+        margin: 60px 20px;
+    }
+    .single-bill-heding a {
+        color: #0067b6;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+
+    /* our resources page style here  */
+    .resources-heder-menu {
+        margin: 40px 20px;
+    }
+    .resources-list {
+        color: #111827;
+        text-decoration: underline;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2;
+    }
+
+
     
-   
+}

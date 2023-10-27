@@ -163,9 +163,68 @@
   <!-- our main area start here  -->
   <main>
    <div class="diagnstic-hero-area" >
-      <h1 class="diagnstic-hero-heding">Patient Billing</h1>
+      <h1 class="diagnstic-hero-heding">Resources</h1>
       <button class="bg-hero-mobile">online bill pay</button>
-   </div>    
+   </div> 
+   <section class="resources-area">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="resources-heder-menu">
+               <ul>
+                  <li><a class="resources-list" href="#">Radiological Society of North America "RSNA"</a></li>
+                  <li><a class="resources-list" href="#">Society of Interventional Radiology "SIR"</a></li>
+                  <li><a class="resources-list" href="#">American College of Radiology patient page "ACR"</a></li>
+                  <li><a class="resources-list" href="#">ask4UFE.com</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <button class="diagnostic-wraper-btn">Schedule an Appointment</button>    
+   </section>  
+   <section class="radiology-form-area diagnostic-form">
+      <div class="container">
+         <div class="row">
+            <div class="col-12  p-0"> 
+               <div class="rediology-form-here">
+                  <div class="radiology-form-heding">
+                     <h2>Schedule an Appointment</h2>
+                      <p class="radiology-form-req">*Required Field</p>
+                  </div>
+                  <form action="#"  method="post" name="AppointmentSchedule">
+                     <input type="hidden" name="form-name" value="AppointmentSchedule">                     
+                        <div class="relative"><input type="text" name="name" value="" id="name" placeholder="Name" class="w-full"></div> 
+                        <div class="relative"><input type="text" name="address" value="" placeholder="address" class="w-full"></div>
+                        <div class="form-area">
+                           <div class="form-relative-1"><input type="text" name="city" value="" id="city" placeholder="city" class="form-city"></div>
+                           <div class="form-relative"><input type="text" name="state" value="" id="state" placeholder="state"></div>
+                           <div class="form-relative"><input type="number" name="zip" value="" id="zip" placeholder="zip"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="text"  id="phone" name="phone" placeholder="phone" class="widd-haf-l" value=""></div>
+                           <div class="relative-contact"><input type="text" name="fax" value="" placeholder="fax" class="widd-haf-r" id="fax"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="email" name="email" value="" id="email" placeholder="email" class="widd-haf-l" ></div>
+                           <div class="relative-contact">
+                              <div>method of contact</div>
+                              <div role="group"  aria-labelledby="method-of-contact"><label><input type="checkbox" name="contactMethod" value="phone" class="checkbox-box">
+                              <span class="lable-span">Phone</span></label><label><input  type="checkbox" name="contactMethod" value="email" class="checkbox-box"><span class="lable-span">Email</span></label></div>                            
+                           </div>
+                        </div>                          
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="time" name="appointment_time" value="" placeholder="  time" class="widd-haf-l"></div>
+                           <div class="relative-contact"><input type="date" name="appointment_date" value="" placeholder="  date" class="widd-haf-r"></div>                           
+                        </div> 
+                        <div class="relative"><textarea name="comments" id="comments"  placeholder="Comments/Questions" class="w-full w-full-f"></textarea></div>
+                        <div class="form-btn-here">
+                           <button class="submit-btn" type="submit">Submit</button>
+                        </div>
+                 </form>         
+               </div>
+            </div>
+         </div>
+     </div>
+   </section>   
   </main>
   <!-- our footer area start here  -->   
    <footer>
