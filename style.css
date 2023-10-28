@@ -1332,6 +1332,57 @@ button:focus:not(:focus-visible)::after {
 .resources-heder-menu ul li{
     color: #d1d5db;
 }
+/* our form psge style start here  */
+.form-page-area{
+    background-color: #f1f3f4;
+}
+.form-page-area{
+    padding: 60px 200px;
+    background-color: #f1f3f4;
+}
+.single-form-info{
+    display: flex;    
+}
+.single-form-info img{
+    width: 200px;
+}
+.single-form-info h2{
+    display: flex;
+    align-items: end;    
+    font-size: 28px;
+    
+}
+.form-page-heder{
+    margin-bottom: 40px;
+}
+
+.single-form-icon{
+    padding: 20px 0;
+}
+.single-form-icon a{
+    display: block;
+    color: #0067b6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    text-transform: uppercase;
+}
+.single-form-icon a:hover{
+    color: #0067b6 !important;
+}
+.form-page-heder h2{
+    color: #919aa7;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.adobe{
+    text-decoration: underline;
+    color: #919aa7;
+    font-size: 3rem;
+
+}
+
+
 
 
 
