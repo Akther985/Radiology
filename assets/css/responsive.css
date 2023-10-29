@@ -895,10 +895,13 @@
     }
     .diagnostic-nav-mobile {
         display: block;
+        padding: 20px 10px;
     }
     .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
         position: relative;
-        padding: 40px 20px;
+        padding: 10px 20px;
+        border-bottom: 3px solid white;
+        margin: 20px 20px 20px 20px;
     }
     .btn-secondary {
         cursor: pointer;
@@ -967,29 +970,36 @@
         white-space: inherit; 
     }
     .s-btn-secondary {
-         display: block;
-         font-size: 20px; 
+        display: block;
+        font-size: 20px;       
+        
     }
     .dropdown-menu.show {
         display: block;
         transform: translate3d(0px, 104px, 0px) !important;
+        inset: 20px auto auto 0px;
     }
     .dropdown-item {
-        white-space: initial;
-        margin: 20px 10px;
+        white-space: initial;       
         font-size: 18px;
     }
     /* teleradiology page style start here  */
-    .teleradiology-navigation-blog {
-        margin: 0 0px;
-        margin-top: 0px; 
-    }    
-
+    .dropdown-item {
+        white-space: initial;        
+        font-size: 18px;
+        color: #009a7c;
+    }
+    
     .teleradiology-nav-mobile {
         display: block;
+        padding: 20px 10px;
     }
     .teleradiology-next-blog {
         margin: 0px 0px;
+    }
+    .teleradiology-navigation-blog {
+        margin: 0 20px;
+        margin-top: 10px;
     }
 
     /* patients page area style here  */
