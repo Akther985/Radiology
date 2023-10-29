@@ -170,10 +170,9 @@
    <section class="-area">
       <div class="container-fluid">
          <div class="row">
-            <div class="col-12">
+            <div class="col-6 mx-auto  ">
                <div class="privacy-info">
-                  <div class="pt-10 prose lg:pt-0 lg:w-1/2 xl:prose-lg">
-                     <h1 class="text-center capitalize">Privacy Policy for Radiology Associates, LLC</h1>
+                  <h1 class="privacy-heder">Privacy Policy for Radiology Associates, LLC</h1>
                      <div>
                         <p>At Lake Radiology, accessible from <em>www.lakeradiology.com</em>, one of our main priorities is the privacy of our visitors. This <em>Privacy Policy</em> document contains types of information that is collected and recorded by Lake Radiology and how we use it.</p>
                         <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
@@ -240,13 +239,56 @@
                         <p><em>Children's Information</em></p>
                         <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
                         <p>Lake Radiology does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
-                     </div>
-                  </div>
+                     </div>                  
                </div>
             </div>
          </div>
       </div>
    </section>
+   <section class="radiology-form-area diagnostic-form">
+      <div class="container">
+         <div class="row">
+            <div class="col-12  p-0"> 
+               <div class="rediology-form-here">
+                  <div class="radiology-form-heding">
+                     <h2>Schedule an Appointment</h2>
+                      <p class="radiology-form-req">*Required Field</p>
+                  </div>
+                  <form action="#"  method="post" name="AppointmentSchedule">
+                     <input type="hidden" name="form-name" value="AppointmentSchedule">                     
+                        <div class="relative"><input type="text" name="name" value="" id="name" placeholder="Name" class="w-full"></div> 
+                        <div class="relative"><input type="text" name="address" value="" placeholder="address" class="w-full"></div>
+                        <div class="form-area">
+                           <div class="form-relative-1"><input type="text" name="city" value="" id="city" placeholder="city" class="form-city"></div>
+                           <div class="form-relative"><input type="text" name="state" value="" id="state" placeholder="state"></div>
+                           <div class="form-relative"><input type="number" name="zip" value="" id="zip" placeholder="zip"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="text"  id="phone" name="phone" placeholder="phone" class="widd-haf-l" value=""></div>
+                           <div class="relative-contact"><input type="text" name="fax" value="" placeholder="fax" class="widd-haf-r" id="fax"></div>
+                        </div>
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="email" name="email" value="" id="email" placeholder="email" class="widd-haf-l" ></div>
+                           <div class="relative-contact">
+                              <div>method of contact</div>
+                              <div role="group"  aria-labelledby="method-of-contact"><label><input type="checkbox" name="contactMethod" value="phone" class="checkbox-box">
+                              <span class="lable-span">Phone</span></label><label><input  type="checkbox" name="contactMethod" value="email" class="checkbox-box"><span class="lable-span">Email</span></label></div>                            
+                           </div>
+                        </div>                          
+                        <div class="form-relative-contact">
+                           <div class="relative-contact"><input type="time" name="appointment_time" value="" placeholder="  time" class="widd-haf-l"></div>
+                           <div class="relative-contact"><input type="date" name="appointment_date" value="" placeholder="  date" class="widd-haf-r"></div>                           
+                        </div> 
+                        <div class="relative"><textarea name="comments" id="comments"  placeholder="Comments/Questions" class="w-full w-full-f"></textarea></div>
+                        <div class="form-btn-here">
+                           <button class="submit-btn" type="submit">Submit</button>
+                        </div>
+                 </form>         
+               </div>
+            </div>
+         </div>
+     </div>
+   </section>  
   </main>
   <!-- our footer area start here  -->   
    <footer>

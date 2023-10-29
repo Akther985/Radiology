@@ -53,6 +53,22 @@
         font-size: 16px;
         font-weight: 700;
        }
+    /* our contact page style star here  */
+   .contact-form-here {
+    background-color: #e6e9e6;
+    padding: 100px;
+    margin: 0 100px;
+}
+  /* our disclaime page style start here  */
+
+  .our-disclaimer-hero {
+    padding: 40px 200px;
+}
+.our-disclaimer-info .disclaimer-hero-heder {
+    font-size: 3rem;       
+}
+
+   
     
     
 }
@@ -103,6 +119,8 @@
     font-size: 16px;
     font-weight: 700;
    }
+   
+ 
 
     
     
@@ -305,6 +323,35 @@
 .diagnostic-wraper-btn {
     margin-left: 200px;    
 }
+
+/* our careear page style start here  */
+.our-careear-area {
+    padding: 60px 20px;
+    background-color: #e6e9e6;
+}
+.our-careear-heder h2 {
+    font-size: 1.2rem;        
+}
+
+/* our contact page style start here  */
+.contact-form-here {
+    background-color: #e6e9e6;
+    padding: 100px;
+    margin: 0; 
+}
+.form-page-area {
+    padding: 60px 100px;
+    background-color: #f1f3f4;
+}
+/* our disclaime page style start here  */
+
+.our-disclaimer-hero {
+    padding: 40px 20px;
+}
+.our-disclaimer-info .disclaimer-hero-heder {
+    font-size: 3rem;       
+}
+
 
 
     
@@ -677,9 +724,71 @@
         background-color: #fff;
         padding: 60px 0;
         margin-left: 30px;
+    }  
+    /* our careear page style start here  */
+    .our-careear-area {
+        padding: 60px 20px;
+        background-color: #e6e9e6;
+    }
+    .our-careear-heder h2 {
+        font-size: 1.2rem;        
+    }
+    /* our contact page style start here  */
+    .contact-form-here {
+        background-color: #e6e9e6;
+        padding: 20px;
+        margin: 0;
+    }
+    /* our form page style start here  */
+    .form-page-area {
+        padding: 60px 20px;
+        background-color: #f1f3f4;
+    }
+    .form-page-heder h2 {
+        color: #919aa7;
+        font-size: 2rem;
+        font-weight: 700;
     }   
+    .single-form-info {
+        display: block;
+    } 
+    .single-form-info h2 {
+        display: flex;
+        align-items: end;
+        font-size: 24px;
+        padding-left: 0px; 
+        margin-top: 20px;
+    }
+    .single-form-icon a {        
+        font-size: 16px;
+    }
+    .single-form-info img {
+        width: 280px;
+    }
+    .diagnostic-wraper-btn {
+       display: none;
+    }
+    /* our disclaime page style start here  */
 
+    .our-disclaimer-hero {
+        padding: 40px 20px;
+    }
+    .our-disclaimer-info .disclaimer-hero-heder {
+        font-size: 2rem;       
+    }
 
+    /* our site map page style here  */
+    .sitemap-info {
+        padding: 60px 20px;
+    }
+
+    /* our privacy page style here  */
+.privacy-heder{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+
+}
 
 
     
@@ -895,14 +1004,14 @@
     }
     .diagnostic-nav-mobile {
         display: block;
-        padding: 20px 10px;
+        padding: 60px 20px;
     }
     .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
         position: relative;
-        padding: 10px 20px;
-        border-bottom: 3px solid white;
-        margin: 20px 20px 20px 20px;
+        padding: 10px 20px; 
+        border-bottom: 3px solid #fff;
     }
+    
     .btn-secondary {
         cursor: pointer;
         background: none;
@@ -976,23 +1085,25 @@
     }
     .dropdown-menu.show {
         display: block;
-        transform: translate3d(0px, 104px, 0px) !important;
+        transform: translate3d(0px, 120px, 0px) !important;
         inset: 20px auto auto 0px;
     }
     .dropdown-item {
-        white-space: initial;       
+        white-space: initial;
+        margin: 20px 10px;
         font-size: 18px;
     }
     /* teleradiology page style start here  */
     .dropdown-item {
-        white-space: initial;        
+        white-space: initial;
+        margin: 20px 10px;
         font-size: 18px;
         color: #009a7c;
     }
     
     .teleradiology-nav-mobile {
         display: block;
-        padding: 20px 10px;
+        padding: 60px 20px;
     }
     .teleradiology-next-blog {
         margin: 0px 0px;
@@ -1061,6 +1172,9 @@
         line-height: 2;
     }
 
+    
+
+    
 
     
 }
