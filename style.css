@@ -967,16 +967,14 @@ a.dtbtn:hover {
 .dropdown-menu-dex ul li a:hover{
     color: #fff !important;
 }
-.diagnstic-navegation{
-    background-color: #009a7c;
-}
 .diagnostic-nav-mobile{
     display: none;
 }
-.diagnostic-navigation-blog{
-    margin-left: 200px;
-}
+
 .diagnostic-blog-img img{
+    width: 100%;
+}
+.diagnostic-blog-img-2 img{
     width: 100%;
 }
 .diagnostic-blog-info{
@@ -991,8 +989,9 @@ a.dtbtn:hover {
     text-transform: capitalize;
     
 }
-.diagnostic-blog-next{
-    background-color:#f1f3f4 ;
+.diagnostic-blog-next {
+    background-color: #f1f3f4;
+    padding: 0 200px;
 }
 .prose-blog {
     color: #d2d1d1;
@@ -1000,6 +999,16 @@ a.dtbtn:hover {
     position: absolute;
     bottom: 530px;
     line-height: 1;
+}
+.prose-blog-2 {
+    color: #d2d1d1;
+    font-size: 4.4rem;
+    position: absolute;
+    line-height: 1;
+    bottom: 500px;
+}
+.intervetion-tab-area{
+    position: relative;
 }
 .diagnostic-wraper{
     position: relative;
@@ -1075,20 +1084,25 @@ a.dtbtn:hover {
 }
 .diagnostic-blog-img {
     margin-left: 200px;
+    margin-top: -50px;
 }
-.intervetion-tab-area{
-    padding: 60px 100px;
-    background-color: #009a7c;
+.tab-img-2{
+    margin-left: 200px;
 }
+
 .nav-tabs {
     border: none;    
 }
-.nav-tabs  li{
+/* .nav-tabs  li{
     display: flex;  
     flex-wrap: wrap; 
     justify-content: space-between;
+} */
+.intervention-tab-menu{
+    background-color: #009a7c;
+    padding: 60px 100px;
+    columns: 3;    
 }
-
 
 .nav-tabs .nav-link:hover {
     border: 0;
@@ -1097,14 +1111,15 @@ a.dtbtn:hover {
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{   
     color: #fff;
     font-size: 36px;
+    padding: 0;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {    
     background: 0;
     border: 0; 
-    border-bottom: 3px solid #831f1f;
+    border-bottom: 4px solid #50bca8;
     color: #fff;
-    padding: 0;
+    
 }
 
 .nav-tabs .nav-link {
@@ -1112,6 +1127,7 @@ a.dtbtn:hover {
     border: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0; 
+    text-align: left;
 }
 
 
