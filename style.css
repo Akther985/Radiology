@@ -1076,6 +1076,44 @@ a.dtbtn:hover {
 .diagnostic-blog-img {
     margin-left: 200px;
 }
+.intervetion-tab-area{
+    padding: 60px 100px;
+    background-color: #009a7c;
+}
+.nav-tabs {
+    border: none;    
+}
+.nav-tabs  li{
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+
+.nav-tabs .nav-link:hover {
+    border: 0;
+   
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{   
+    color: #fff;
+    font-size: 36px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {    
+    background: 0;
+    border: 0; 
+    border-bottom: 3px solid #831f1f;
+    color: #fff;
+    padding: 0;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: 0; 
+    border: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; 
+}
+
 
 /* teleradiology page style start here  */
 .teleradiology-nav .dropdown-menu-dex ul{
